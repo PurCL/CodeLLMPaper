@@ -620,6 +620,12 @@
   - **Labels**: [program testing](program_testing.md), [vulnerability exploitation](vulnerability_exploitation.md), [benchmark](benchmark.md)
 
 
+- [PoCGen: Generating Proof-of-Concept Exploits for Vulnerabilities in Npm Packages](../venues/arXiv2025/paper_27.md), ([arXiv2025](../venues/arXiv2025/README.md))
+
+  - **Abstract**: Security vulnerabilities in software packages are a significant concern for developers and users alike. Patching these vulnerabilities in a timely manner is crucial to restoring the integrity and security of software systems. However, previous work has shown that vulnerability reports often lack proof-of-concept (PoC) exploits, which are essential for fixing the vulnerability, testing patches, and avoiding regressions. Creating a PoC exploit is challenging because vulnerability reports are infor...
+  - **Labels**: [vulnerability exploitation](vulnerability_exploitation.md)
+
+
 - [Teams of LLM Agents can Exploit Zero-Day Vulnerabilities](../venues/arXiv2024/paper_30.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: LLM agents have become increasingly sophisticated, especially in the realm of cybersecurity. Researchers have shown that LLM agents can exploit real-world vulnerabilities when given a description of the vulnerability and toy capture-the-flag problems. However, these agents still perform poorly on real-world vulnerabilities that are unknown to the agent ahead of time (zero-day vulnerabilities). In this work, we show that teams of LLM agents can exploit real-world, zero-day vulnerabilities. Prior ...

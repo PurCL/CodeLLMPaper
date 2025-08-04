@@ -1,6 +1,6 @@
 # arXiv2025
 
-Number of papers: 25
+Number of papers: 27
 
 ## [AI Software Engineer: Programming with Trust](paper_21.md)
 - **Authors**: Abhik Roychoudhury, Corina Pasareanu, Michael Pradel, Baishakhi Ray
@@ -128,6 +128,13 @@ Number of papers: 25
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
 
 
+## [LLM-Based Repair of Static Nullability Errors](paper_26.md)
+- **Authors**: Karimipour, Nima and Pradel, Michael and Kellogg, Martin and Sridharan, Manu
+- **Abstract**: Modern Java projects increasingly adopt static analysis tools that prevent null-pointer exceptions by treating nullness as a type property. However, integrating such tools into large, existing codebases remains a significant challenge. While annotation inference can eliminate many errors automatically, a subset of residual errors -- typically a mix of real bugs and false positives -- often persist and can only be resolved via code changes. Manually addressing these errors is tedious and error-pr...
+- **Link**: [Read Paper](https://arxiv.org/pdf/2507.20674)
+- **Labels**: [program repair](../../labels/program_repair.md)
+
+
 ## [Language Models for Code Optimization: Survey, Challenges and Future Directions](paper_5.md)
 - **Authors**: Jingzhi Gong, Vardan Voskanyan, Paul Brookes, Fan Wu, Wei Jie, Jie Xu, Rafail Giavrimis, Mike Basios, Leslie Kanthan, Zheng Wang
 - **Abstract**: Language models (LMs) built upon deep neural networks (DNNs) have recently demonstrated breakthrough effectiveness in software engineering tasks such as code generation, completion, and repair. This has paved the way for the emergence of LM-based code optimization techniques, which are crucial for enhancing the performance of existing programs, such as accelerating program execution time. However, a comprehensive survey dedicated to this specific application has been lacking. To fill this gap, w...
@@ -147,6 +154,13 @@ Number of papers: 25
 - **Abstract**: Static bug analyzers play a crucial role in ensuring software quality. However, existing analyzers for bug detection in large codebases often suffer from high false positive rates. This is primarily due to the limited capabilities of analyzers in path feasibility validation with multiple conditional branches and complex data dependencies. While current LLM-based approaches attempt to address this issue, their effectiveness remains limited due to insufficient constraint cascade analysis and scala...
 - **Link**: [Read Paper](https://arxiv.org/abs/2506.10322)
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
+
+
+## [PoCGen: Generating Proof-of-Concept Exploits for Vulnerabilities in Npm Packages](paper_27.md)
+- **Authors**: Simsek, Deniz and Eghbali, Aryaz and Pradel, Michael
+- **Abstract**: Security vulnerabilities in software packages are a significant concern for developers and users alike. Patching these vulnerabilities in a timely manner is crucial to restoring the integrity and security of software systems. However, previous work has shown that vulnerability reports often lack proof-of-concept (PoC) exploits, which are essential for fixing the vulnerability, testing patches, and avoiding regressions. Creating a PoC exploit is challenging because vulnerability reports are infor...
+- **Link**: [Read Paper](https://arxiv.org/pdf/2506.04962)
+- **Labels**: [vulnerability exploitation](../../labels/vulnerability_exploitation.md)
 
 
 ## [Prompting Large Language Models to Tackle the Full Software Development Lifecycle: A Case Study](paper_1.md)
