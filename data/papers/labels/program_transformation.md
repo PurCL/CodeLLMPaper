@@ -36,7 +36,7 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [empirical study](empirical_study.md)
 
 
-- [C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques](../venues/arXiv2025/paper_25.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques](../venues/arXiv2025/paper_26.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: In recent years, there has been a lot of interest in converting C code to Rust, to benefit from the memory and thread safety guarantees of Rust. C2Rust is a rule-based system that can automatically convert C code to functionally identical Rust, but the Rust code that it produces is non-idiomatic, i.e., makes extensive use of unsafe Rust, a subset of the language that doesn't have memory or thread safety guarantees. At the other end of the spectrum are LLMs, which produce idiomatic Rust code, but...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)

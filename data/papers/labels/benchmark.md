@@ -225,7 +225,7 @@
 
 ## Program Testing
 
-- [BountyBench: Dollar Impact of AI Agent Attackers and Defenders on Real-World Cybersecurity Systems](../venues/arXiv2025/paper_20.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [BountyBench: Dollar Impact of AI Agent Attackers and Defenders on Real-World Cybersecurity Systems](../venues/arXiv2025/paper_21.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: AI agents have the potential to significantly alter the cybersecurity landscape. To help us understand this change, we introduce the first framework to capture offensive and defensive cyber-capabilities in evolving real-world systems. Instantiating this framework with BountyBench, we set up 25 systems with complex, real-world codebases. To capture the vulnerability lifecycle, we define three task types: Detect (detecting a new vulnerability), Exploit (exploiting a specific vulnerability), and Pa...
   - **Labels**: [program testing](program_testing.md), [vulnerability exploitation](vulnerability_exploitation.md), [benchmark](benchmark.md)
@@ -240,12 +240,12 @@
   - **Abstract**: Language Model (LM) agents for cybersecurity that are capable of autonomously identifying vulnerabilities and executing exploits have the potential to cause real-world impact. Policymakers, model providers, and other researchers in the AI and cybersecurity communities are interested in quantifying the capabilities of such agents to help mitigate cyberrisk and investigate opportunities for penetration testing. Toward that end, we introduce Cybench, a framework for specifying cybersecurity tasks a...
   - **Labels**: [program testing](program_testing.md), [vulnerability exploitation](vulnerability_exploitation.md), [benchmark](benchmark.md)
 
-- [CyberGym: Evaluating AI Agents' Cybersecurity Capabilities with Real-World Vulnerabilities at Scale](../venues/arXiv2025/paper_19.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [CyberGym: Evaluating AI Agents' Cybersecurity Capabilities with Real-World Vulnerabilities at Scale](../venues/arXiv2025/paper_20.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Large language model (LLM) agents are becoming increasingly skilled at handling cybersecurity tasks autonomously. Thoroughly assessing their cybersecurity capabilities is critical and urgent, given the high stakes in this domain. However, existing benchmarks fall short, often failing to capture real-world scenarios or being limited in scope. To address this gap, we introduce CyberGym, a large-scale and high-quality cybersecurity evaluation framework featuring 1,507 real-world vulnerabilities fou...
   - **Labels**: [program testing](program_testing.md), [vulnerability exploitation](vulnerability_exploitation.md), [benchmark](benchmark.md)
 
-- [Interactive Tools Substantially Assist LM Agents in Finding Security Vulnerabilities](../venues/arXiv2025/paper_18.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Interactive Tools Substantially Assist LM Agents in Finding Security Vulnerabilities](../venues/arXiv2025/paper_19.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Although language model (LM) agents have demonstrated increased performance in multiple domains, including coding and web-browsing, their success in cybersecurity has been limited. We present EnIGMA, an LM agent for autonomously solving Capture The Flag (CTF) challenges. We introduce new tools and interfaces to improve the agent's ability to find and exploit security vulnerabilities, focusing on interactive terminal programs. These novel Interactive Agent Tools enable LM agents, for the first ti...
   - **Labels**: [program testing](program_testing.md), [vulnerability exploitation](vulnerability_exploitation.md), [benchmark](benchmark.md)

@@ -8,4 +8,4 @@ Static program analysis is a popular technique in software engineering. Traditio
 
 **Link**: [Read Paper](https://openreview.net/forum?id=3RP6YmKo59)
 
-**Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [abstract interpretation](../../labels/abstract_interpretation.md), [bug detection](../../labels/bug_detection.md)

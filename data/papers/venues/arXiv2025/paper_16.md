@@ -1,11 +1,11 @@
-# Automated Static Vulnerability Detection via a Holistic Neuro-symbolic Approach
+# Can LLMs Formally Reason as Abstract Interpreters for Program Analysis?
 
-**Authors**: Penghui Li, Songchen Yao, Josef Sarfati Korich, Changhua Luo, Jianjia Yu, Yinzhi Cao, Junfeng Yang
+**Authors**: Jacqueline L. Mitchell, Brian Hyeongseok Kim, Chenyu Zhou, Chao Wang
 
 **Abstract**:
 
-Static vulnerability detection is still a challenging problem and demands excessive human efforts, e.g., manual curation of good vulnerability patterns. None of prior works, including classic program analysis or Large Language Model (LLM)-based approaches, have fully automated such vulnerability pattern generations with reasonable detection accuracy. In this paper, we design and implement, MoCQ, a novel holistic neuro-symbolic framework that combines the complementary strengths of LLMs and classical static analysis to enable scalable vulnerability detection. The key insight is that MoCQ leverages an LLM to automatically extract vulnerability patterns and translate them into detection queries, and then on static analysis to refine such queries in a feedback loop and eventually execute them for analyzing large codebases and mining vulnerabilities. We evaluate MoCQ on seven types of vulnerabilities spanning two programming languages. We found MoCQ-generated queries uncovered at least 12 patterns that were missed by experts. On a ground truth dataset, MoCQ achieved comparable precision and recall compared to expert-crafted queries. Moreover, MoCQ has identified seven previously unknown vulnerabilities in real-world applications, demonstrating its practical effectiveness. We have responsibly disclosed them to the corresponding developers.
+LLMs have demonstrated impressive capabilities in code generation and comprehension, but their potential in being able to perform program analysis in a formal, automatic manner remains under-explored. To that end, we systematically investigate whether LLMs can reason about programs using a program analysis framework called abstract interpretation. We prompt LLMs to follow two different strategies, denoted as Compositional and Fixed Point Equation, to formally reason in the style of abstract interpretation, which has never been done before to the best of our knowledge. We validate our approach using state-of-the-art LLMs on 22 challenging benchmark programs from the Software Verification Competition (SV-COMP) 2019 dataset, widely used in program analysis. Our results show that our strategies are able to elicit abstract interpretation-based reasoning in the tested models, but LLMs are susceptible to logical errors, especially while interpreting complex program structures, as well as general hallucinations. This highlights key areas for improvement in the formal reasoning capabilities of LLMs.
 
-**Link**: [Read Paper](https://arxiv.org/abs/2504.16057)
+**Link**: [Read Paper](https://arxiv.org/abs/2503.12686)
 
-**Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [abstract interpretation](../../labels/abstract_interpretation.md)

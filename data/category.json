@@ -36,6 +36,7 @@
             "call graph analysis": {},
             "data-flow analysis": {},
             "symbolic execution": {},
+            "abstract interpretation": {},
             "type inference": {},
             "specification inference": {},
             "equivalence checking": {},

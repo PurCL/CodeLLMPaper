@@ -94,12 +94,13 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Debugging](data/papers/labels/debugging.md)   (16)
   - [Bug Reproduction](data/papers/labels/bug_reproduction.md)   (6)
   - [Vulnerability Exploitation](data/papers/labels/vulnerability_exploitation.md)   (11)
-- [Static Analysis](data/papers/labels/static_analysis.md)   (204)
+- [Static Analysis](data/papers/labels/static_analysis.md)   (205)
   - [Syntactic Analysis](data/papers/labels/syntactic_analysis.md)   (1)
   - [Pointer Analysis](data/papers/labels/pointer_analysis.md)   (3)
   - [Call Graph Analysis](data/papers/labels/call_graph_analysis.md)   (3)
   - [Data-flow Analysis](data/papers/labels/data-flow_analysis.md)   (8)
   - [Symbolic Execution](data/papers/labels/symbolic_execution.md)   (1)
+  - [Abstract Interpretation](data/papers/labels/abstract_interpretation.md)   (2)
   - [Type Inference](data/papers/labels/type_inference.md)   (7)
   - [Specification Inference](data/papers/labels/specification_inference.md)   (21)
   - [Equivalence Checking](data/papers/labels/equivalence_checking.md)   (2)
@@ -123,8 +124,8 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
 
 This category concentrates on the LLMs' ability in understanding different forms of code and the non-functional properties of the LLMs (e.g., security and robustness). We also consider how to utilize the LLMs for general reasoning problems, such as typical agent-centric designs and specific PL designs for LLMs.
 
-- [Code Model](data/papers/labels/code_model.md)   (4)
-  - [Code Model Training](data/papers/labels/code_model_training.md)   (92)
+- [Code Model](data/papers/labels/code_model.md)   (1)
+  - [Code Model Training](data/papers/labels/code_model_training.md)   (4)
     - [Source Code Model](data/papers/labels/source_code_model.md)   (65)
     - [IR Code Model](data/papers/labels/IR_code_model.md)   (5)
     - [Binary Code Model](data/papers/labels/binary_code_model.md)   (15)

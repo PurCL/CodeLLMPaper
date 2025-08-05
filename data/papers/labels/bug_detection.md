@@ -9,7 +9,7 @@
 - [AbsInt-AI: Language Models for Abstract Interpretation](../venues/ICLR2025/paper_2.md), ([ICLR2025](../venues/ICLR2025/README.md))
 
   - **Abstract**: Static program analysis is a popular technique in software engineering. Traditional static analysis algorithms treat programs as sets of logical statements with well-defined semantics. These traditional analyzers can provide guarantees of their performance, such as guaranteeing that they will never miss a bug. However, they leave out lots of very rich information such as variable and field names. Language models for code on the other hand, take full advantage of information such as variable name...
-  - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
+  - **Labels**: [static analysis](static_analysis.md), [abstract interpretation](abstract_interpretation.md), [bug detection](bug_detection.md)
 
 
 - [An Exploration of Large Language Models in Malicious Source Code Detection](../venues/CCS2024/paper_5.md), ([CCS2024](../venues/CCS2024/README.md))
@@ -36,7 +36,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
-- [Automated Static Vulnerability Detection via a Holistic Neuro-symbolic Approach](../venues/arXiv2025/paper_16.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Automated Static Vulnerability Detection via a Holistic Neuro-symbolic Approach](../venues/arXiv2025/paper_17.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Static vulnerability detection is still a challenging problem and demands excessive human efforts, e.g., manual curation of good vulnerability patterns. None of prior works, including classic program analysis or Large Language Model (LLM)-based approaches, have fully automated such vulnerability pattern generations with reasonable detection accuracy. In this paper, we design and implement, MoCQ, a novel holistic neuro-symbolic framework that combines the complementary strengths of LLMs and class...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)

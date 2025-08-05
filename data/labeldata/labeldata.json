@@ -7905,6 +7905,21 @@
         ],
         "url": "https://arxiv.org/abs/2310.08275"
     },
+    "Can LLMs Formally Reason as Abstract Interpreters for Program Analysis?": {
+        "type": "article",
+        "key": "jacqueline2025",
+        "title": "Can LLMs Formally Reason as Abstract Interpreters for Program Analysis?",
+        "author": "Jacqueline L. Mitchell, Brian Hyeongseok Kim, Chenyu Zhou, Chao Wang",
+        "journal": "arXiv preprint arXiv:2503.12686",
+        "year": "2025",
+        "venue": "arXiv2025",
+        "abstract": "LLMs have demonstrated impressive capabilities in code generation and comprehension, but their potential in being able to perform program analysis in a formal, automatic manner remains under-explored. To that end, we systematically investigate whether LLMs can reason about programs using a program analysis framework called abstract interpretation. We prompt LLMs to follow two different strategies, denoted as Compositional and Fixed Point Equation, to formally reason in the style of abstract interpretation, which has never been done before to the best of our knowledge. We validate our approach using state-of-the-art LLMs on 22 challenging benchmark programs from the Software Verification Competition (SV-COMP) 2019 dataset, widely used in program analysis. Our results show that our strategies are able to elicit abstract interpretation-based reasoning in the tested models, but LLMs are susceptible to logical errors, especially while interpreting complex program structures, as well as general hallucinations. This highlights key areas for improvement in the formal reasoning capabilities of LLMs.",
+        "labels": [
+            "static analysis",
+            "abstract interpretation"
+        ],
+        "url": "https://arxiv.org/abs/2503.12686"
+    },
     "AbsInt-AI: Language Models for Abstract Interpretation": {
         "type": "article",
         "key": "absint-ai",
@@ -7916,6 +7931,7 @@
         "abstract": "Static program analysis is a popular technique in software engineering. Traditional static analysis algorithms treat programs as sets of logical statements with well-defined semantics. These traditional analyzers can provide guarantees of their performance, such as guaranteeing that they will never miss a bug. However, they leave out lots of very rich information such as variable and field names. Language models for code on the other hand, take full advantage of information such as variable names, but it is extremely difficult to provide guarantees of their output. In this work, we present ABSINT-AI, a language model augmented static analyzer based on abstract interpretation that combines the best of both worlds. Using a language model in ABSINT-AI achieves up to a 70% decrease in false positives for bug detection while providing guarantees of never missing a bug.",
         "labels": [
             "static analysis",
+            "abstract interpretation",
             "bug detection"
         ],
         "url": "https://openreview.net/forum?id=3RP6YmKo59"
