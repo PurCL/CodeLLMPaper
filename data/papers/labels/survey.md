@@ -7,7 +7,7 @@
   - **Abstract**: The prominent large language models (LLMs) of today differ from past language models not only in size, but also in the fact that they are trained on a combination of natural language and formal language (code). As a medium between humans and computers, code translates high-level goals into executable steps, featuring standard syntax, logical consistency, abstraction, and modularity. In this survey, we present an overview of the various benefits of integrating code into LLMs' training data. Speci...
   - **Labels**: [agent design](agent_design.md), [survey](survey.md)
 
-- [From System 1 to System 2: A Survey of Reasoning Large Language Models](../venues/arXiv2025/paper_23.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [From System 1 to System 2: A Survey of Reasoning Large Language Models](../venues/arXiv2025/paper_24.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Achieving human-level intelligence requires refining the transition from the fast, intuitive System 1 to the slower, more deliberate System 2 reasoning. While System 1 excels in quick, heuristic decisions, System 2 relies on logical reasoning for more accurate judgments and reduced biases. Foundational Large Language Models (LLMs) excel at fast decision-making but lack the depth for complex reasoning, as they have not yet fully embraced the step-by-step analysis characteristic of true System 2 t...
   - **Labels**: [agent design](agent_design.md), [hallucination in reasoning](hallucination_in_reasoning.md), [survey](survey.md)
@@ -39,7 +39,7 @@
   - **Abstract**: Large Language Models (LLMs) have garnered remarkable advancements across diverse code-related tasks, known as Code LLMs, particularly in code generation that generates source code with LLM from natural language descriptions. This burgeoning field has captured significant interest from both academic researchers and industry professionals due to its practical significance in software development, e.g., GitHub Copilot. Despite the active exploration of LLMs for a variety of code tasks, either from...
   - **Labels**: [survey](survey.md), [code generation](code_generation.md)
 
-- [AI Software Engineer: Programming with Trust](../venues/arXiv2025/paper_22.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [AI Software Engineer: Programming with Trust](../venues/arXiv2025/paper_23.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Large Language Models (LLMs) have shown surprising proficiency in generating code snippets, promising to automate large parts of software engineering via artificial intelligence (AI). We argue that successfully deploying AI software engineers requires a level of trust equal to or even greater than the trust established by human-driven software engineering practices. The recent trend toward LLM agents offers a path toward integrating the power of LLMs to create new code with the power of analysis...
   - **Labels**: [code generation](code_generation.md), [survey](survey.md)
@@ -80,7 +80,7 @@
   - **Abstract**: AI for Mathematics (AI4Math) is not only intriguing intellectually but also crucial for AI-driven discovery in science, engineering, and beyond. Extensive efforts on AI4Math have mirrored techniques in NLP, in particular, training large language models on carefully curated math datasets in text form. As a complementary yet less explored avenue, formal mathematical reasoning is grounded in formal systems such as proof assistants, which can verify the correctness of reasoning and provide automatic...
   - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md), [survey](survey.md)
 
-- [From System 1 to System 2: A Survey of Reasoning Large Language Models](../venues/arXiv2025/paper_23.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [From System 1 to System 2: A Survey of Reasoning Large Language Models](../venues/arXiv2025/paper_24.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Achieving human-level intelligence requires refining the transition from the fast, intuitive System 1 to the slower, more deliberate System 2 reasoning. While System 1 excels in quick, heuristic decisions, System 2 relies on logical reasoning for more accurate judgments and reduced biases. Foundational Large Language Models (LLMs) excel at fast decision-making but lack the depth for complex reasoning, as they have not yet fully embraced the step-by-step analysis characteristic of true System 2 t...
   - **Labels**: [agent design](agent_design.md), [hallucination in reasoning](hallucination_in_reasoning.md), [survey](survey.md)

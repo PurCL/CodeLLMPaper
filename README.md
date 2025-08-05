@@ -133,18 +133,19 @@ This category concentrates on the LLMs' ability in understanding different forms
   - [Code Model Robustness](data/papers/labels/code_model_robustness.md)   (11)
 - [Hallucination In Reasoning](data/papers/labels/hallucination_in_reasoning.md)   (16)
 - [PL Design For LLMs](data/papers/labels/PL_design_for_LLMs.md)   (3)
-- [Agent Design](data/papers/labels/agent_design.md)   (71)
+- [Agent Design](data/papers/labels/agent_design.md)   (72)
   - [Prompt Strategy](data/papers/labels/prompt_strategy.md)   (44)
     - [Retrieval-augmented Generation](data/papers/labels/retrieval-augmented_generation.md)   (14)
     - [Reason With Code](data/papers/labels/reason_with_code.md)   (17)
     - [Sampling And Ranking](data/papers/labels/sampling_and_ranking.md)   (3)
+    - [Agent Security](data/papers/labels/agent_security)   (1)
   - [Planning](data/papers/labels/planning.md)   (13)
 
 ### C.3. Research Paradigm
 
 This category includes studies on benchmarks, empirical evaluations, and surveys. The papers that do not belong to the following three categories are purely technical papers.
 
-- [Benchmark](data/papers/labels/benchmark.md)   (62)
+- [Benchmark](data/papers/labels/benchmark.md)   (13)
 - [Empirical Study](data/papers/labels/empirical_study.md)   (108)
 - [Survey](data/papers/labels/survey.md)   (19)
 

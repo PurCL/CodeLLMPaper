@@ -65,7 +65,8 @@
                 "reason with code": {},
                 "sampling and ranking": {}
             },
-            "planning": {}
+            "planning": {},
+            "agent security": {}
         },
         "benchmark": {},
         "empirical study": {},

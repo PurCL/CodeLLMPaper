@@ -1,11 +1,11 @@
-# Fixing 7,400 Bugs for 1$: Cheap Crash-Site Program Repair
+# Automated Static Vulnerability Detection via a Holistic Neuro-symbolic Approach
 
-**Authors**: Han Zheng, Ilia Shumailov, Tianqi Fan, Aiden Hall, Mathias Payer
+**Authors**: Penghui Li, Songchen Yao, Josef Sarfati Korich, Changhua Luo, Jianjia Yu, Yinzhi Cao, Junfeng Yang
 
 **Abstract**:
 
-The rapid advancement of bug-finding techniques has led to the discovery of more vulnerabilities than developers can reasonably fix, creating an urgent need for effective Automated Program Repair (APR) methods. However, the complexity of modern bugs often makes precise root cause analysis difficult and unreliable. To address this challenge, we propose crash-site repair to simplify the repair task while still mitigating the risk of exploitation. In addition, we introduce a template-guided patch generation approach that significantly reduces the token cost of Large Language Models (LLMs) while maintaining both efficiency and effectiveness. We implement our prototype system, WILLIAMT, and evaluate it against state-of-the-art APR tools. Our results show that, when combined with the top-performing agent CodeRover-S, WILLIAMT reduces token cost by 45.9% and increases the bug-fixing rate to 73.5% (+29.6%) on ARVO, a ground-truth open source software vulnerabilities benchmark. Furthermore, we demonstrate that WILLIAMT can function effectively even without access to frontier LLMs: even a local model running on a Mac M4 Mini achieves a reasonable repair rate. These findings highlight the broad applicability and scalability of WILLIAMT.
+Static vulnerability detection is still a challenging problem and demands excessive human efforts, e.g., manual curation of good vulnerability patterns. None of prior works, including classic program analysis or Large Language Model (LLM)-based approaches, have fully automated such vulnerability pattern generations with reasonable detection accuracy. In this paper, we design and implement, MoCQ, a novel holistic neuro-symbolic framework that combines the complementary strengths of LLMs and classical static analysis to enable scalable vulnerability detection. The key insight is that MoCQ leverages an LLM to automatically extract vulnerability patterns and translate them into detection queries, and then on static analysis to refine such queries in a feedback loop and eventually execute them for analyzing large codebases and mining vulnerabilities. We evaluate MoCQ on seven types of vulnerabilities spanning two programming languages. We found MoCQ-generated queries uncovered at least 12 patterns that were missed by experts. On a ground truth dataset, MoCQ achieved comparable precision and recall compared to expert-crafted queries. Moreover, MoCQ has identified seven previously unknown vulnerabilities in real-world applications, demonstrating its practical effectiveness. We have responsibly disclosed them to the corresponding developers.
 
-**Link**: [Read Paper](https://arxiv.org/abs/2505.13103)
+**Link**: [Read Paper](https://arxiv.org/abs/2504.16057)
 
-**Labels**: [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md)
+**Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)

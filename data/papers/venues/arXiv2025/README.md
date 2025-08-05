@@ -1,12 +1,19 @@
 # arXiv2025
 
-Number of papers: 26
+Number of papers: 27
 
-## [AI Software Engineer: Programming with Trust](paper_22.md)
+## [AI Software Engineer: Programming with Trust](paper_23.md)
 - **Authors**: Abhik Roychoudhury, Corina Pasareanu, Michael Pradel, Baishakhi Ray
 - **Abstract**: Large Language Models (LLMs) have shown surprising proficiency in generating code snippets, promising to automate large parts of software engineering via artificial intelligence (AI). We argue that successfully deploying AI software engineers requires a level of trust equal to or even greater than the trust established by human-driven software engineering practices. The recent trend toward LLM agents offers a path toward integrating the power of LLMs to create new code with the power of analysis...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2502.13767)
 - **Labels**: [code generation](../../labels/code_generation.md), [survey](../../labels/survey.md)
+
+
+## [AgentArmor: Enforcing Program Analysis on Agent Runtime Trace to Defend Against Prompt Injection](paper_17.md)
+- **Authors**: Peiran Wang, Yang Liu, Yunfei Lu, Yifeng Cai, Hongbo Chen, Qingyou Yang, Jie Zhang, Jue Hong, Ye Wu
+- **Abstract**: Large Language Model (LLM) agents offer a powerful new paradigm for solving various problems by combining natural language reasoning with the execution of external tools. However, their dynamic and non-transparent behavior introduces critical security risks, particularly in the presence of prompt injection attacks. In this work, we propose a novel insight that treats the agent runtime traces as structured programs with analyzable semantics. Thus, we present AgentArmor, a program analysis framewo...
+- **Link**: [Read Paper](https://www.arxiv.org/abs/2508.01249)
+- **Labels**: [agent design](../../labels/agent_design.md), [agent security](../../labels/agent_security.md)
 
 
 ## [Are “Solved Issues” in SWE-bench Really Solved Correctly?](paper_15.md)
@@ -16,21 +23,21 @@ Number of papers: 26
 - **Labels**: [benchmark](../../labels/benchmark.md), [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md)
 
 
-## [Automated Static Vulnerability Detection via a Holistic Neuro-symbolic Approach](paper_17.md)
+## [Automated Static Vulnerability Detection via a Holistic Neuro-symbolic Approach](paper_18.md)
 - **Authors**: Penghui Li, Songchen Yao, Josef Sarfati Korich, Changhua Luo, Jianjia Yu, Yinzhi Cao, Junfeng Yang
 - **Abstract**: Static vulnerability detection is still a challenging problem and demands excessive human efforts, e.g., manual curation of good vulnerability patterns. None of prior works, including classic program analysis or Large Language Model (LLM)-based approaches, have fully automated such vulnerability pattern generations with reasonable detection accuracy. In this paper, we design and implement, MoCQ, a novel holistic neuro-symbolic framework that combines the complementary strengths of LLMs and class...
 - **Link**: [Read Paper](https://arxiv.org/abs/2504.16057)
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
 
 
-## [BountyBench: Dollar Impact of AI Agent Attackers and Defenders on Real-World Cybersecurity Systems](paper_21.md)
+## [BountyBench: Dollar Impact of AI Agent Attackers and Defenders on Real-World Cybersecurity Systems](paper_22.md)
 - **Authors**: Andy K. Zhang, Joey Ji, Celeste Menders, Riya Dulepet, Thomas Qin, Ron Y. Wang, Junrong Wu, Kyleen Liao, Jiliang Li, Jinghan Hu, Sara Hong, Nardos Demilew, Shivatmica Murgai, Jason Tran, Nishka Kacheria, Ethan Ho, Denis Liu, Lauren McLane, Olivia Bruvik, Dai-Rong Han, Seungwoo Kim, Akhil Vyas, Cuiyuanxiu Chen, Ryan Li, Weiran Xu, Jonathan Z. Ye, Prerit Choudhary, Siddharth M. Bhatia, Vikram Sivashankar, Yuxuan Bao, Dawn Song, Dan Boneh, Daniel E. Ho, Percy Liang
 - **Abstract**: AI agents have the potential to significantly alter the cybersecurity landscape. To help us understand this change, we introduce the first framework to capture offensive and defensive cyber-capabilities in evolving real-world systems. Instantiating this framework with BountyBench, we set up 25 systems with complex, real-world codebases. To capture the vulnerability lifecycle, we define three task types: Detect (detecting a new vulnerability), Exploit (exploiting a specific vulnerability), and Pa...
 - **Link**: [Read Paper](https://arxiv.org/abs/2505.15216)
 - **Labels**: [program testing](../../labels/program_testing.md), [vulnerability exploitation](../../labels/vulnerability_exploitation.md), [benchmark](../../labels/benchmark.md)
 
 
-## [C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques](paper_26.md)
+## [C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques](paper_27.md)
 - **Authors**: Vikram Nitin, Rahul Krishna, Luiz Lemos do Valle, Baishakhi Ray
 - **Abstract**: In recent years, there has been a lot of interest in converting C code to Rust, to benefit from the memory and thread safety guarantees of Rust. C2Rust is a rule-based system that can automatically convert C code to functionally identical Rust, but the Rust code that it produces is non-idiomatic, i.e., makes extensive use of unsafe Rust, a subset of the language that doesn't have memory or thread safety guarantees. At the other end of the spectrum are LLMs, which produce idiomatic Rust code, but...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2501.14257)
@@ -72,7 +79,7 @@ Number of papers: 26
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
 
 
-## [CyberGym: Evaluating AI Agents' Cybersecurity Capabilities with Real-World Vulnerabilities at Scale](paper_20.md)
+## [CyberGym: Evaluating AI Agents' Cybersecurity Capabilities with Real-World Vulnerabilities at Scale](paper_21.md)
 - **Authors**: Zhun Wang, Tianneng Shi, Jingxuan He, Matthew Cai, Jialin Zhang, Dawn Song
 - **Abstract**: Large language model (LLM) agents are becoming increasingly skilled at handling cybersecurity tasks autonomously. Thoroughly assessing their cybersecurity capabilities is critical and urgent, given the high stakes in this domain. However, existing benchmarks fall short, often failing to capture real-world scenarios or being limited in scope. To address this gap, we introduce CyberGym, a large-scale and high-quality cybersecurity evaluation framework featuring 1,507 real-world vulnerabilities fou...
 - **Link**: [Read Paper](https://arxiv.org/abs/2506.02548)
@@ -86,28 +93,28 @@ Number of papers: 26
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
 
 
-## [Fixing 7,400 Bugs for 1$: Cheap Crash-Site Program Repair](paper_18.md)
+## [Fixing 7,400 Bugs for 1$: Cheap Crash-Site Program Repair](paper_19.md)
 - **Authors**: Han Zheng, Ilia Shumailov, Tianqi Fan, Aiden Hall, Mathias Payer
 - **Abstract**: The rapid advancement of bug-finding techniques has led to the discovery of more vulnerabilities than developers can reasonably fix, creating an urgent need for effective Automated Program Repair (APR) methods. However, the complexity of modern bugs often makes precise root cause analysis difficult and unreliable. To address this challenge, we propose crash-site repair to simplify the repair task while still mitigating the risk of exploitation. In addition, we introduce a template-guided patch g...
 - **Link**: [Read Paper](https://arxiv.org/abs/2505.13103)
 - **Labels**: [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md)
 
 
-## [From System 1 to System 2: A Survey of Reasoning Large Language Models](paper_23.md)
+## [From System 1 to System 2: A Survey of Reasoning Large Language Models](paper_24.md)
 - **Authors**: Zhong-Zhi Li, Duzhen Zhang, Ming-Liang Zhang, Jiaxin Zhang, Zengyan Liu, Yuxuan Yao, Haotian Xu, Junhao Zheng, Pei-Jie Wang, Xiuyi Chen, Yingying Zhang, Fei Yin, Jiahua Dong, Zhiwei Li, Bao-Long Bi, Ling-Rui Mei, Junfeng Fang, Zhijiang Guo, Le Song, Cheng-Lin Liu
 - **Abstract**: Achieving human-level intelligence requires refining the transition from the fast, intuitive System 1 to the slower, more deliberate System 2 reasoning. While System 1 excels in quick, heuristic decisions, System 2 relies on logical reasoning for more accurate judgments and reduced biases. Foundational Large Language Models (LLMs) excel at fast decision-making but lack the depth for complex reasoning, as they have not yet fully embraced the step-by-step analysis characteristic of true System 2 t...
 - **Link**: [Read Paper](https://arxiv.org/abs/2502.17419)
 - **Labels**: [agent design](../../labels/agent_design.md), [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [survey](../../labels/survey.md)
 
 
-## [Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs](paper_25.md)
+## [Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs](paper_26.md)
 - **Authors**: Nilesh Dhulshette, Sapan Shah, Vinay Kulkarni
 - **Abstract**: In large-scale software development, understanding the functionality and intent behind complex codebases is critical for effective development and maintenance. While code summarization has been widely studied, existing methods primarily focus on smaller code units, such as functions, and struggle with larger code artifacts like files and packages. Additionally, current summarization models tend to emphasize low-level implementation details, often overlooking the domain and business context that ...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2501.07857)
 - **Labels**: [static analysis](../../labels/static_analysis.md), [code summarization](../../labels/code_summarization.md), [agent design](../../labels/agent_design.md), [prompt strategy](../../labels/prompt_strategy.md), [retrieval-augmented generation](../../labels/retrieval-augmented_generation.md)
 
 
-## [Interactive Tools Substantially Assist LM Agents in Finding Security Vulnerabilities](paper_19.md)
+## [Interactive Tools Substantially Assist LM Agents in Finding Security Vulnerabilities](paper_20.md)
 - **Authors**: Talor Abramovich, Meet Udeshi, Minghao Shao, Kilian Lieret, Haoran Xi, Kimberly Milner, Sofija Jancheska, John Yang, Carlos E. Jimenez, Farshad Khorrami, Prashanth Krishnamurthy, Brendan Dolan-Gavitt, Muhammad Shafique, Karthik Narasimhan, Ramesh Karri, Ofir Press
 - **Abstract**: Although language model (LM) agents have demonstrated increased performance in multiple domains, including coding and web-browsing, their success in cybersecurity has been limited. We present EnIGMA, an LM agent for autonomously solving Capture The Flag (CTF) challenges. We introduce new tools and interfaces to improve the agent's ability to find and exploit security vulnerabilities, focusing on interactive terminal programs. These novel Interactive Agent Tools enable LM agents, for the first ti...
 - **Link**: [Read Paper](https://arxiv.org/abs/2409.16165)
@@ -142,7 +149,7 @@ Number of papers: 26
 - **Labels**: [static analysis](../../labels/static_analysis.md), [program optimization](../../labels/program_optimization.md), [survey](../../labels/survey.md)
 
 
-## [Large Language Model powered Symbolic Execution](paper_24.md)
+## [Large Language Model powered Symbolic Execution](paper_25.md)
 - **Authors**: Yihe Li, Ruijie Meng, Gregory J. Duck
 - **Abstract**: Large Language Models (LLMs) have emerged as a promising alternative to traditional static program analysis methods, such as symbolic execution, offering the ability to reason over code directly without relying on theorem provers or SMT solvers. However, LLMs are also inherently probabilistic by nature, and therefore face significant challenges in relation to the accuracy and scale of the analysis in real-world application. Such issues often necessitate the use of larger LLMs with higher token l...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2505.13452)
