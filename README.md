@@ -139,7 +139,7 @@ This category concentrates on the LLMs' ability in understanding different forms
     - [Reason With Code](data/papers/labels/reason_with_code.md)   (17)
     - [Sampling And Ranking](data/papers/labels/sampling_and_ranking.md)   (3)
   - [Planning](data/papers/labels/planning.md)   (13)
-  - [Agent Security](data/papers/labels/agent_security)   (1)
+  - [Agent Security](data/papers/labels/agent_security.md)   (1)
 
 ### C.3. Research Paradigm
 
