@@ -138,14 +138,14 @@ This category concentrates on the LLMs' ability in understanding different forms
     - [Retrieval-augmented Generation](data/papers/labels/retrieval-augmented_generation.md)   (14)
     - [Reason With Code](data/papers/labels/reason_with_code.md)   (17)
     - [Sampling And Ranking](data/papers/labels/sampling_and_ranking.md)   (3)
-    - [Agent Security](data/papers/labels/agent_security)   (1)
   - [Planning](data/papers/labels/planning.md)   (13)
+  - [Agent Security](data/papers/labels/agent_security)   (1)
 
 ### C.3. Research Paradigm
 
 This category includes studies on benchmarks, empirical evaluations, and surveys. The papers that do not belong to the following three categories are purely technical papers.
 
-- [Benchmark](data/papers/labels/benchmark.md)   (13)
+- [Benchmark](data/papers/labels/benchmark.md)   (1)
 - [Empirical Study](data/papers/labels/empirical_study.md)   (108)
 - [Survey](data/papers/labels/survey.md)   (19)
 

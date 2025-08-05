@@ -138,8 +138,8 @@ This category concentrates on the LLMs' ability in understanding different forms
     - [Retrieval-augmented Generation](data/papers/labels/retrieval-augmented_generation.md)   ({c54})
     - [Reason With Code](data/papers/labels/reason_with_code.md)   ({c55})
     - [Sampling And Ranking](data/papers/labels/sampling_and_ranking.md)   ({c56})
-    - [Agent Security](data/papers/labels/agent_security)   ({c57})
-  - [Planning](data/papers/labels/planning.md)   ({c58})
+  - [Planning](data/papers/labels/planning.md)   ({c57})
+  - [Agent Security](data/papers/labels/agent_security)   ({c58})
 
 ### C.3. Research Paradigm
 
