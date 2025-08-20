@@ -284,6 +284,12 @@
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [static analysis](static_analysis.md), [program verification](program_verification.md)
 
 
+- [Hysynth: Context-free llm approximation for guiding program synthesis](../venues/NeurIPS2024/paper_9.md), ([NeurIPS2024](../venues/NeurIPS2024/README.md))
+
+  - **Abstract**: Many structured prediction and reasoning tasks can be framed as program synthesis problems, where the goal is to generate a program in a domain-specific language (DSL) that transforms input data into the desired output. Unfortunately, purely neural approaches, such as large language models (LLMs), often fail to produce fully correct programs in unfamiliar DSLs, while purely symbolic methods based on combinatorial search scale poorly to complex problems. Motivated by these limitations, we introdu...
+  - **Labels**: [program synthesis](program_synthesis.md)
+
+
 - [INTERTRANS: Leveraging Transitive Intermediate Translations to Enhance LLM-Based Code Translation](../venues/ICSE2025/paper_67.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Code translation aims to convert a program from one programming language (PL) to another. This long-standing software engineering task is crucial for modernizing legacy systems, ensuring cross-platform compatibility, enhancing performance, and more. However, automating this process remains challenging due to many syntactic and semantic differences between PLs. Recent studies show that even advanced techniques such as large language models (LLMs), especially open-source LLMs, still struggle with ...
@@ -408,6 +414,12 @@
 
   - **Abstract**: CodeLLMs are widely used for code generation, yet their ability to handle repository-level dependencies remains underexplored. We introduce RepoExec, a benchmark for evaluating repository-level code generation, focusing on executability, functional correctness, and dependency utilization. Our study evaluates 18 models, revealing that retaining full dependency context yields the best performance, while smaller context sizes can be misleading. Pretrained LLMs excel in correctness but often reimple...
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [agent design](agent_design.md), [prompt strategy](prompt_strategy.md), [retrieval-augmented generation](retrieval-augmented_generation.md)
+
+
+- [Online Prompt Selection for Program Synthesis](../venues/AAAI2025/paper_2.md), ([AAAI2025](../venues/AAAI2025/README.md))
+
+  - **Abstract**: Large Language Models (LLMs) demonstrate impressive capabilities in the domain of program synthesis. This level of performance is not, however, universal across all tasks, all LLMs and all prompting styles. There are many areas where one LLM dominates, one prompting style dominates, or where calling a symbolic solver is a better choice than an LLM. A key challenge for the user then, is to identify not only when an LLM is the right choice of solver, and the appropriate LLM to call for a given syn...
+  - **Labels**: [program synthesis](program_synthesis.md)
 
 
 - [Oracle-Guided Program Selection from Large Language Models](../venues/ISSTA2024/paper_9.md), ([ISSTA2024](../venues/ISSTA2024/README.md))
@@ -912,6 +924,12 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
+- [Counterexample Guided Program Repair Using Zero-Shot Learning and MaxSAT-based Fault Localization](../venues/AAAI2025/paper_3.md), ([AAAI2025](../venues/AAAI2025/README.md))
+
+  - **Abstract**: Automated Program Repair (APR) for introductory programming assignments (IPAS) is motivated by the large number of student enrollments in programming courses each year. Since providing feedback on programming assignments requires substantial time and effort from faculty, personalized automated feedback often involves suggesting repairs to students' programs. Symbolic semantic repair approaches, which rely on Formal Methods (FM), check a program's execution against a test suite or reference solut...
+  - **Labels**: [program repair](program_repair.md)
+
+
 - [DR.FIX: Automatically Fixing Data Races at Industry Scale](../venues/PLDI2025/paper_1.md), ([PLDI2025](../venues/PLDI2025/README.md))
 
   - **Abstract**: Data races are a prevalent class of concurrency bugs in shared-memory parallel programs, posing significant challenges to software reliability and reproducibility. While there is an extensive body of research on detecting data races and a wealth of practical detection tools across various programming languages, considerably less effort has been directed toward automatically fixing data races at an industrial scale. In large codebases, data races are continuously introduced and exhibit myriad pat...
@@ -1020,10 +1038,22 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
+- [LLM-Based Repair of Static Nullability Errors](../venues/arXiv2025/paper_28.md), ([arXiv2025](../venues/arXiv2025/README.md))
+
+  - **Abstract**: Modern Java projects increasingly adopt static analysis tools that prevent null-pointer exceptions by treating nullness as a type property. However, integrating such tools into large, existing codebases remains a significant challenge. While annotation inference can eliminate many errors automatically, a subset of residual errors -- typically a mix of real bugs and false positives -- often persist and can only be resolved via code changes. Manually addressing these errors is tedious and error-pr...
+  - **Labels**: [program repair](program_repair.md)
+
+
 - [LLMs Cannot Reliably Identify and Reason About Security Vulnerabilities (Yet?): A Comprehensive Evaluation, Framework, and Benchmarks](../venues/S&P2024/paper_1.md), ([S&P2024](../venues/S&P2024/README.md))
 
   - **Abstract**: Large Language Models (LLMs) have been suggested for use in automated vulnerability repair, but benchmarks showing they can consistently identify security-related bugs are lacking. We thus develop SecLLMHolmes, a fully automated evaluation framework that performs the most detailed investigation to date on whether LLMs can reliably identify and reason about security-related bugs. We construct a set of 228 code scenarios and analyze eight of the most capable LLMs across eight different investigati...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [code generation](code_generation.md), [program repair](program_repair.md), [empirical study](empirical_study.md)
+
+
+- [Less is more: adaptive program repair with bug localization and preference learning](../venues/AAAI2025/paper_1.md), ([AAAI2025](../venues/AAAI2025/README.md))
+
+  - **Abstract**: Automated Program Repair (APR) is a task to automatically generate patches for the buggy code. However, most research focuses on generating correct patches while ignoring the consistency between the fixed code and the original buggy code. How to conduct adaptive bug fixing and generate patches with minimal modifications have seldom been investigated. To bridge this gap, we first introduce a novel task, namely AdaPR (Adaptive Program Repair). We then propose a two-stage approach AdaPatcher (Adapt...
+  - **Labels**: [program repair](program_repair.md)
 
 
 - [Mining Action Rules for Defect Reduction Planning](../venues/FSE2024/paper_12.md), ([FSE2024](../venues/FSE2024/README.md))

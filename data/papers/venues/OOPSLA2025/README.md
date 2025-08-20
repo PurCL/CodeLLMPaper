@@ -1,6 +1,13 @@
 # OOPSLA2025
 
-Number of papers: 3
+Number of papers: 4
+
+## [API-Guided Dataset Synthesis to Finetune Large Code Models](paper_4.md)
+- **Authors**: Li, Zongjie and Wu, Daoyuan and Wang, Shuai and Su, Zhendong
+- **Abstract**: Large code models (LCMs), pre-trained on vast code corpora, have demonstrated remarkable performance across a wide array of code-related tasks. Supervised fine-tuning (SFT) plays a vital role in aligning these models with specific requirements and enhancing their performance in particular domains. However, synthesizing high-quality SFT datasets poses a significant challenge due to the uneven quality of datasets and the scarcity of domain-specific datasets. Inspired by APIs as high-level abstract...
+- **Link**: [Read Paper](https://doi.org/10.1145/3720449)
+- **Labels**: [source code model](../../labels/source_code_model.md)
+
 
 ## [Artemis: Toward Accurate Detection of Server-Side Request Forgeries through LLM-Assisted Inter-procedural Path-Sensitive Taint Analysis](paper_2.md)
 - **Authors**: Yuchen Ji, Ting Dai, Zhichao Zhou, Yutian Tang, Jingzhu He
