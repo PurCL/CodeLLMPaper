@@ -282,6 +282,12 @@
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [static analysis](static_analysis.md), [program verification](program_verification.md)
 
 
+- [Hysynth: Context-free llm approximation for guiding program synthesis](../venues/NeurIPS2024/paper_9.md), ([NeurIPS2024](../venues/NeurIPS2024/README.md))
+
+  - **Abstract**: Many structured prediction and reasoning tasks can be framed as program synthesis problems, where the goal is to generate a program in a domain-specific language (DSL) that transforms input data into the desired output. Unfortunately, purely neural approaches, such as large language models (LLMs), often fail to produce fully correct programs in unfamiliar DSLs, while purely symbolic methods based on combinatorial search scale poorly to complex problems. Motivated by these limitations, we introdu...
+  - **Labels**: [program synthesis](program_synthesis.md)
+
+
 - [INTERTRANS: Leveraging Transitive Intermediate Translations to Enhance LLM-Based Code Translation](../venues/ICSE2025/paper_67.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Code translation aims to convert a program from one programming language (PL) to another. This long-standing software engineering task is crucial for modernizing legacy systems, ensuring cross-platform compatibility, enhancing performance, and more. However, automating this process remains challenging due to many syntactic and semantic differences between PLs. Recent studies show that even advanced techniques such as large language models (LLMs), especially open-source LLMs, still struggle with ...
@@ -406,6 +412,12 @@
 
   - **Abstract**: CodeLLMs are widely used for code generation, yet their ability to handle repository-level dependencies remains underexplored. We introduce RepoExec, a benchmark for evaluating repository-level code generation, focusing on executability, functional correctness, and dependency utilization. Our study evaluates 18 models, revealing that retaining full dependency context yields the best performance, while smaller context sizes can be misleading. Pretrained LLMs excel in correctness but often reimple...
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [agent design](agent_design.md), [prompt strategy](prompt_strategy.md), [retrieval-augmented generation](retrieval-augmented_generation.md)
+
+
+- [Online Prompt Selection for Program Synthesis](../venues/AAAI2025/paper_2.md), ([AAAI2025](../venues/AAAI2025/README.md))
+
+  - **Abstract**: Large Language Models (LLMs) demonstrate impressive capabilities in the domain of program synthesis. This level of performance is not, however, universal across all tasks, all LLMs and all prompting styles. There are many areas where one LLM dominates, one prompting style dominates, or where calling a symbolic solver is a better choice than an LLM. A key challenge for the user then, is to identify not only when an LLM is the right choice of solver, and the appropriate LLM to call for a given syn...
+  - **Labels**: [program synthesis](program_synthesis.md)
 
 
 - [Oracle-Guided Program Selection from Large Language Models](../venues/ISSTA2024/paper_9.md), ([ISSTA2024](../venues/ISSTA2024/README.md))
