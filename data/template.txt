@@ -158,7 +158,7 @@ We welcome contributions to expand this repository. If you want to add new paper
 1. **Prepare a JSON File**: Format the file like [`data/labeldata/patch/example.json`](data/labeldata/patch/example.json). Each paper should include:
    - `title`, `authors`, `abstract`, `url`, `venue`, and `labels` (aligned with the taxonomy in [`data/labeldata/patch`](data/labeldata/patch)).
     
-2. **Upload the File**: Place the JSON file in the [`data/labeldata/patch`](data/labeldata/patch) directory.
+2. **Upload the File**: Copy the items of the json dictionary to the json file `data/labeldata/labeldata.json`.
 
 3. **Update Markdown Files**: Run the following command to update the repository:
    
