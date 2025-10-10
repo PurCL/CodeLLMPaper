@@ -1,6 +1,6 @@
 # OOPSLA2025
 
-Number of papers: 4
+Number of papers: 5
 
 ## [API-Guided Dataset Synthesis to Finetune Large Code Models](paper_4.md)
 - **Authors**: Li, Zongjie and Wu, Daoyuan and Wang, Shuai and Su, Zhendong
@@ -14,6 +14,13 @@ Number of papers: 4
 - **Abstract**: Server-side request forgery (SSRF) vulnerabilities are inevitable in PHP web applications. Existing static tools in detecting vulnerabilities in PHP web applications neither contain SSRF-related features to enhance detection accuracy nor consider PHP’s dynamic type features. In this paper, we present Artemis, a static taint analysis tool for detecting SSRF vulnerabilities in PHP web applications. First, Artemis extracts both PHP built-in and third-party functions as candidate source and sink fun...
 - **Link**: [Read Paper](https://dl.acm.org/doi/10.1145/3720488)
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
+
+
+## [Interleaving Large Language Models for Compiler Testing](paper_5.md)
+- **Authors**: Ni, Yunbo and Li, Shaohua
+- **Abstract**: Testing compilers with AI models, especially large language models (LLMs), has shown great promise. However, current approaches struggle with two key problems: The generated programs for testing compilers are often too simple, and extensive testing with the LLMs is computationally expensive. In this paper, we propose a novel compiler testing framework that decouples the testing process into two distinct phases: an offline phase and an online phase. In the offline phase, we use LLMs to generate a...
+- **Link**: [Read Paper](https://doi.org/10.1145/3763079)
+- **Labels**: [program testing](../../labels/program_testing.md), [fuzzing](../../labels/fuzzing.md)
 
 
 ## [Laurel: Unblocking Automated Verification with Large Language Models](paper_3.md)
