@@ -48,6 +48,12 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
 
 
+- [Interleaving Large Language Models for Compiler Testing](../venues/OOPSLA2025/paper_5.md), ([OOPSLA2025](../venues/OOPSLA2025/README.md))
+
+  - **Abstract**: Testing compilers with AI models, especially large language models (LLMs), has shown great promise. However, current approaches struggle with two key problems: The generated programs for testing compilers are often too simple, and extensive testing with the LLMs is computationally expensive. In this paper, we propose a novel compiler testing framework that decouples the testing process into two distinct phases: an offline phase and an online phase. In the offline phase, we use LLMs to generate a...
+  - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
+
+
 - [KernelGPT: Enhanced Kernel Fuzzing via Large Language Models](../venues/arXiv2024/paper_39.md), ([arXiv2024](../venues/arXiv2024/README.md))
 
   - **Abstract**: Bugs in operating system kernels can affect billions of devices and users all over the world. As a result, a large body of research has been focused on kernel fuzzing, i.e., automatically generating syscall (system call) sequences to detect potential kernel bugs or vulnerabilities. Kernel fuzzing aims to generate valid syscall sequences guided by syscall specifications that define both the syntax and semantics of syscalls. While there has been existing work trying to automate syscall specificati...
