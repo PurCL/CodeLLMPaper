@@ -32,7 +32,7 @@
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md)
 
 
-- [An Exploratory Study of ML Sketches and Visual Code Assistants](../venues/ICSE2025/paper_37.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [An Exploratory Study of ML Sketches and Visual Code Assistants](../venues/ICSE2025/paper_36.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: This paper explores the integration of Visual Code Assistants in Integrated Development Environments (IDEs). In Software Engineering, whiteboard sketching is often the initial step before coding, serving as a crucial collaboration tool for developers. Previous studies have investigated patterns in SE sketches and how they are used in practice, yet methods for directly using these sketches for code generation remain limited. The emergence of visually-equipped large language models presents an opp...
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [software maintenance and deployment](software_maintenance_and_deployment.md)
@@ -536,7 +536,7 @@
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [empirical study](empirical_study.md)
 
 
-- [SpecGen: Automated Generation of Formal Program Specifications via Large Language Models](../venues/ICSE2025/paper_7.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [SpecGen: Automated Generation of Formal Program Specifications via Large Language Models](../venues/ICSE2025/paper_37.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: In the software development process, formal program specifications play a crucial role in various stages, including requirement analysis, software testing, and verification. However, manually crafting formal program specifications is rather difficult, making the job time-consuming and labor-intensive. Moreover, it is even more challenging to write specifications that correctly and comprehensively describe the semantics of complex programs. To reduce the burden on software developers, automated s...
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [static analysis](static_analysis.md), [specification inference](specification_inference.md), [program verification](program_verification.md)
@@ -584,7 +584,7 @@
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [empirical study](empirical_study.md)
 
 
-- [Towards Neural Synthesis for SMT-Assisted Proof-Oriented Programming](../venues/ICSE2025/paper_8.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [Towards Neural Synthesis for SMT-Assisted Proof-Oriented Programming](../venues/ICSE2025/paper_7.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Proof-oriented programs mix computational content with proofs of program correctness. However, the human effort involved in programming and proving is still substantial, despite the use of Satisfiability Modulo Theories (SMT) solvers to automate proofs in languages such as F*. Seeking to spur research on using AI to automate the construction of proof-oriented programs, we curate a dataset of 600K lines of open-source F* programs and proofs, including software used in production systems ranging f...
   - **Labels**: [code generation](code_generation.md), [program synthesis](program_synthesis.md), [static analysis](static_analysis.md), [program verification](program_verification.md), [benchmark](benchmark.md), [empirical study](empirical_study.md)
@@ -942,7 +942,7 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [empirical study](empirical_study.md)
 
 
-- [DesignRepair: Dual-Stream Design Guideline-Aware Frontend Repair with Large Language Models](../venues/ICSE2025/paper_36.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [DesignRepair: Dual-Stream Design Guideline-Aware Frontend Repair with Large Language Models](../venues/ICSE2025/paper_35.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: The rise of Large Language Models (LLMs) has streamlined frontend interface creation through tools like Vercel's v0, yet surfaced challenges in design quality (e.g., accessibility, and usability). Current solutions, often limited by their focus, generalisability, or data dependency, fall short in addressing these complexities. Moreover, none of them examine the quality of LLM-generated UI design. In this work, we introduce DesignRepair, a novel dual-stream design guideline-aware system to examin...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
@@ -984,7 +984,7 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
-- [Fixing Large Language Models' Specification Misunderstanding for Better Code Generation](../venues/ICSE2025/paper_35.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [Fixing Large Language Models' Specification Misunderstanding for Better Code Generation](../venues/ICSE2025/paper_34.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Code generation is to automatically generate source code conforming to a given programming specification, which has received extensive attention especially with the development of large language models (LLMs). Due to the inherent difficulty of code generation, the code generated by LLMs may not be aligned with the specification. Although thought-eliciting prompting techniques have been proposed to enhance the code generation performance of LLMs, producing correct understanding for complicated pr...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
@@ -1038,7 +1038,7 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
-- [LLM-Based Repair of Static Nullability Errors](../venues/arXiv2025/paper_28.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [LLM-Based Repair of Static Nullability Errors](../venues/arXiv2025/paper_29.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Modern Java projects increasingly adopt static analysis tools that prevent null-pointer exceptions by treating nullness as a type property. However, integrating such tools into large, existing codebases remains a significant challenge. While annotation inference can eliminate many errors automatically, a subset of residual errors -- typically a mix of real bugs and false positives -- often persist and can only be resolved via code changes. Manually addressing these errors is tedious and error-pr...
   - **Labels**: [program repair](program_repair.md)
@@ -1134,13 +1134,13 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
-- [Revisiting Unnaturalness for Automated Program Repair in the Era of Large Language Models](../venues/ICSE2025/paper_28.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [Revisiting Unnaturalness for Automated Program Repair in the Era of Large Language Models](../venues/ICSE2025/paper_27.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: The problem of software quality has motivated the development of a variety of techniques for Automatic Program Repair (APR). Meanwhile, recent advances in AI and Large Language Models (LLMs) have produced orders of magnitude performance improvements over previous code generation techniques, affording promising opportunities for program repair and its constituent subproblems (e.g., fault localization, patch generation). Because models are trained on large volumes of code in which defects are rela...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
-- [RustAssistant: Using LLMs to Fix Compilation Errors in Rust Code](../venues/ICSE2025/paper_14.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [RustAssistant: Using LLMs to Fix Compilation Errors in Rust Code](../venues/ICSE2025/paper_13.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: The Rust programming language, with its safety guarantees, has established itself as a viable choice for low-level systems programming language over the traditional, unsafe alternatives like C/C++. These guarantees come from a strong ownership-based type system, as well as primitive support for features like closures, pattern matching, etc., that make the code more concise and amenable to reasoning. These unique Rust features also pose a steep learning curve for programmers. This paper presents ...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
@@ -1170,7 +1170,7 @@
   - **Labels**: [benchmark](benchmark.md), [code generation](code_generation.md), [program repair](program_repair.md)
 
 
-- [Template-Guided Program Repair in the Era of Large Language Models](../venues/ICSE2025/paper_17.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [Template-Guided Program Repair in the Era of Large Language Models](../venues/ICSE2025/paper_16.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Recent advancements in automated program repair (APR) have been significantly driven by the application of Large Language Models (LLMs). In particular, the integration of LLMs with traditional template-based repair methods has demonstrated effective outcomes. Despite this, the synergy between the strengths of traditional methods and LLMs remains underexploited. This oversight originates from the indiscriminate use of templates and their insufficient coverage. Also, using small-scale LLMs within ...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
@@ -1262,7 +1262,7 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [empirical study](empirical_study.md)
 
 
-- [C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques](../venues/arXiv2025/paper_27.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques](../venues/arXiv2025/paper_28.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: In recent years, there has been a lot of interest in converting C code to Rust, to benefit from the memory and thread safety guarantees of Rust. C2Rust is a rule-based system that can automatically convert C code to functionally identical Rust, but the Rust code that it produces is non-idiomatic, i.e., makes extensive use of unsafe Rust, a subset of the language that doesn't have memory or thread safety guarantees. At the other end of the spectrum are LLMs, which produce idiomatic Rust code, but...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
@@ -1328,7 +1328,7 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
-- [LLM Assistance for Memory Safety](../venues/ICSE2025/paper_15.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [LLM Assistance for Memory Safety](../venues/ICSE2025/paper_14.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Memory safety violations in low-level code, written in languages like C, continues to remain one of the major sources of software vulnerabilities. One method of removing such violations by construction is to port C code to a safe C dialect. Such dialects rely on programmer-supplied annotations to guarantee safety with minimal runtime overhead. This porting, however, is a manual process that imposes significant burden on the programmer and, hence, there has been limited adoption of this technique...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [static analysis](static_analysis.md), [specification inference](specification_inference.md)
@@ -1424,7 +1424,7 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
-- [Search-Based LLMs for Code Optimization](../venues/ICSE2025/paper_13.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [Search-Based LLMs for Code Optimization](../venues/ICSE2025/paper_12.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: The code written by developers usually suffers from efficiency problems and contain various performance bugs. These inefficiencies necessitate the research of automated refactoring methods for code optimization. Early research in code optimization employs rule-based methods and focuses on specific inefficiency issues, which are labor-intensive and suffer from the low coverage issue. Recent work regards the task as a sequence generation problem, and resorts to deep learning (DL) techniques such a...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [static analysis](static_analysis.md), [program optimization](program_optimization.md)

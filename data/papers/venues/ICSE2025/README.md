@@ -9,7 +9,7 @@ Number of papers: 70
 - **Labels**: [program testing](../../labels/program_testing.md), [library testing](../../labels/library_testing.md)
 
 
-## [A Multiple Representation Transformer with Optimized Abstract Syntax Tree for Efficient Code Clone Detection](paper_23.md)
+## [A Multiple Representation Transformer with Optimized Abstract Syntax Tree for Efficient Code Clone Detection](paper_22.md)
 - **Authors**: Yu, Tianchen and Yuan, Li and Lin, Liannan and He, Hongkui
 - **Abstract**: Over the past decade, the application of deep learning in code clone detection has produced remarkable results. However, the current approaches have two limitations: (a) code representation approaches with low information utilization, such as vanilla Abstract Syntax Tree (AST), leading to information redundancy which results in performance degradation; (b) low efficiency of clone detection on evaluation, resulting in excessive time costs during practical use. In this paper, we propose a Multiple...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00050)
@@ -23,35 +23,35 @@ Number of papers: 70
 - **Labels**: [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md)
 
 
-## [An Empirical Study on Automatically Detecting AI-Generated Source Code: How Far are We?](paper_25.md)
+## [An Empirical Study on Automatically Detecting AI-Generated Source Code: How Far are We?](paper_24.md)
 - **Authors**: Suh, Hyunjae and Tafreshipour, Mahan and Li, Jiawei and Bhattiprolu, Adithya and Ahmed, Iftekhar
 - **Abstract**: Artificial Intelligence (AI) techniques, especially Large Language Models (LLMs), have started gaining popularity among researchers and software developers for generating source code. However, LLMs have been shown to generate code with quality issues and also incurred copyright/licensing infringements. Therefore, detecting whether a piece of source code is written by humans or AI has become necessary. This study first presents an empirical analysis to investigate the effectiveness of the existin...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00064)
 - **Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md), [empirical study](../../labels/empirical_study.md)
 
 
-## [An Empirical Study on Commit Message Generation Using LLMs via In-Context Learning](paper_30.md)
+## [An Empirical Study on Commit Message Generation Using LLMs via In-Context Learning](paper_29.md)
 - **Authors**: Wu, Yifan and Wang, Yunpeng and Li, Ying and Tao, Wei and Yu, Siyu and Yang, Haowen and Jiang, Wei and Li, Jianguo
 - **Abstract**: Commit messages concisely describe code changes in natural language and are important for software maintenance. Several approaches have been proposed to automatically generate commit messages, but they still suffer from critical limitations, such as time-consuming training and poor generalization ability. To tackle these limitations, we propose to borrow the weapon of large language models (LLMs) and in-context learning (ICL). Our intuition is based on the fact that the training corpora of LLMs ...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00091)
 - **Labels**: [software maintenance and deployment](../../labels/software_maintenance_and_deployment.md), [commit message generation](../../labels/commit_message_generation.md), [empirical study](../../labels/empirical_study.md)
 
 
-## [An Exploratory Study of ML Sketches and Visual Code Assistants](paper_37.md)
+## [An Exploratory Study of ML Sketches and Visual Code Assistants](paper_36.md)
 - **Authors**: Gomes, Luis F. and Hellendoorn, Vincent J. and Aldrich, Jonathan and Abreu, Rui
 - **Abstract**: This paper explores the integration of Visual Code Assistants in Integrated Development Environments (IDEs). In Software Engineering, whiteboard sketching is often the initial step before coding, serving as a crucial collaboration tool for developers. Previous studies have investigated patterns in SE sketches and how they are used in practice, yet methods for directly using these sketches for code generation remain limited. The emergence of visually-equipped large language models presents an opp...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00124)
 - **Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [software maintenance and deployment](../../labels/software_maintenance_and_deployment.md)
 
 
-## [An LLM-Based Agent-Oriented Approach for Automated Code Design Issue Localization](paper_33.md)
+## [An LLM-Based Agent-Oriented Approach for Automated Code Design Issue Localization](paper_32.md)
 - **Authors**: Batole, Fraol and OBrien, David and Nguyen, Tien N. and Dyer, Robert and Rajan, Hridesh
 - **Abstract**: Maintaining software design quality is crucial for the long-term maintainability and evolution of systems. However, design issues such as poor modularity and excessive complexity often emerge as codebases grow. Developers rely on external tools, such as program analysis techniques, to identify such issues. This work leverages Large Language Models (LLMs) to develop an automated approach for analyzing and localizing design issues. Large language models have demonstrated significant performance on...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00100)
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
 
 
-## [Between Lines of Code: Unraveling the Distinct Patterns of Machine and Human Programmers](paper_9.md)
+## [Between Lines of Code: Unraveling the Distinct Patterns of Machine and Human Programmers](paper_8.md)
 - **Authors**: Shi, Yuling and Zhang, Hongyu and Wan, Chengcheng and Gu, Xiaodong
 - **Abstract**: Large language models have catalyzed an unprece-dented wave in code generation. While achieving significant advances, they blur the distinctions between machine- and human-authored source code, causing integrity and authenticity issues of software artifacts. Previous methods such as DetectGPthave proven effective in discerning machine-generated texts, but they do not identify and harness the unique patterns of machine-generated code. Thus, its applicability falters when applied to code. In this ...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00005)
@@ -72,7 +72,7 @@ Number of papers: 70
 - **Labels**: [program testing](../../labels/program_testing.md), [debugging](../../labels/debugging.md), [bug reproduction](../../labels/bug_reproduction.md)
 
 
-## [Calibration and Correctness of Language Models for Code](paper_20.md)
+## [Calibration and Correctness of Language Models for Code](paper_19.md)
 - **Authors**: Spiess, Claudio and Gros, David and Pai, Kunal Suresh and Pradel, Michael and Rabin, Md Rafiqul Islam and Alipour, Amin and Jha, Susmit and Devanbu, Prem and Ahmed, Toufique
 - **Abstract**: Machine learning models are widely used, but can also often be wrong. Users would benefit from a reliable indication of whether a given output from a given model should be trusted, so a rational decision can be made whether to use the output or not. For example, outputs can be associated with a confidence measure; if this confidence measure is strongly associated with likelihood of correctness, then the model is said to be well-calibrated. A well-calibrated confidence measure can serve as a basi...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00040)
@@ -100,7 +100,7 @@ Number of papers: 70
 - **Labels**: [program testing](../../labels/program_testing.md), [fuzzing](../../labels/fuzzing.md), [compiler testing](../../labels/compiler_testing.md)
 
 
-## [Code Comment Inconsistency Detection and Rectification Using a Large Language Model](paper_19.md)
+## [Code Comment Inconsistency Detection and Rectification Using a Large Language Model](paper_18.md)
 - **Authors**: Rong, Guoping and Yu, Yongda and Liu, Song and Tan, Xin and Zhang, Tianyi and Shen, Haifeng and Hu, Jidong
 - **Abstract**: Comments are widely used in source code. If a comment is consistent with the code snippet it intends to annotate, it would aid code comprehension. Otherwise, Code Comment Inconsistency (CCI) is not only detrimental to the understanding of code, but more importantly, it would negatively impact the development, testing, and maintenance of software. To tackle this issue, existing research has been primarily focused on detecting inconsistencies with varied performance. It is evident that detection a...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00035)
@@ -114,7 +114,7 @@ Number of papers: 70
 - **Labels**: [general coding task](../../labels/general_coding_task.md), [code generation](../../labels/code_generation.md), [code model](../../labels/code_model.md), [code model robustness](../../labels/code_model_robustness.md)
 
 
-## [Combining Fine-Tuning and LLM-Based Agents for Intuitive Smart Contract Auditing with Justifications](paper_16.md)
+## [Combining Fine-Tuning and LLM-Based Agents for Intuitive Smart Contract Auditing with Justifications](paper_15.md)
 - **Authors**: Ma, Wei and Wu, Daoyuan and Sun, Yuqiang and Wang, Tianwen and Liu, Shangqing and Zhang, Jian and Xue, Yue and Liu, Yang
 - **Abstract**: Smart contracts are decentralized applications built atop blockchains like Ethereum. Recent research has shown that large language models (LLMs) have potential in auditing smart contracts, but the state-of-the-art indicates that even GPT-4 can achieve only 30% precision (when both decision and justification are correct). This is likely because off-the-shelf LLMs were primarily pre-trained on a general text/code corpus and not fine-tuned on the specific domain of Solidity smart contract auditing....
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00027)
@@ -135,7 +135,7 @@ Number of papers: 70
 - **Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md)
 
 
-## [DesignRepair: Dual-Stream Design Guideline-Aware Frontend Repair with Large Language Models](paper_36.md)
+## [DesignRepair: Dual-Stream Design Guideline-Aware Frontend Repair with Large Language Models](paper_35.md)
 - **Authors**: Yuan, Mingyue and Chen, Jieshan and Xing, Zhenchang and Quigley, Aaron and Luo, Yuyu and Luo, Tianqi and Mohammadi, Gelareh and Lu, Qinghua and Zhu, Liming
 - **Abstract**: The rise of Large Language Models (LLMs) has streamlined frontend interface creation through tools like Vercel's v0, yet surfaced challenges in design quality (e.g., accessibility, and usability). Current solutions, often limited by their focus, generalisability, or data dependency, fall short in addressing these complexities. Moreover, none of them examine the quality of LLM-generated UI design. In this work, we introduce DesignRepair, a novel dual-stream design guideline-aware system to examin...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00109)
@@ -163,7 +163,7 @@ Number of papers: 70
 - **Labels**: [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md)
 
 
-## [Fixing Large Language Models' Specification Misunderstanding for Better Code Generation](paper_35.md)
+## [Fixing Large Language Models' Specification Misunderstanding for Better Code Generation](paper_34.md)
 - **Authors**: Tian, Zhao and Chen, Junjie and Zhang, Xiangyu
 - **Abstract**: Code generation is to automatically generate source code conforming to a given programming specification, which has received extensive attention especially with the development of large language models (LLMs). Due to the inherent difficulty of code generation, the code generated by LLMs may not be aligned with the specification. Although thought-eliciting prompting techniques have been proposed to enhance the code generation performance of LLMs, producing correct understanding for complicated pr...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00108)
@@ -177,7 +177,7 @@ Number of papers: 70
 - **Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [empirical study](../../labels/empirical_study.md), [benchmark](../../labels/benchmark.md)
 
 
-## [Hyperion: Unveiling DApp Inconsistencies Using LLM and Dataflow-Guided Symbolic Execution](paper_11.md)
+## [Hyperion: Unveiling DApp Inconsistencies Using LLM and Dataflow-Guided Symbolic Execution](paper_10.md)
 - **Authors**: Yang, Shuo and Lin, Xingwei and Chen, Jiachi and Zhong, Qingyuan and Xiao, Lei and Huang, Renke and Wang, Yanlin and Zheng, Zibin
 - **Abstract**: The rapid advancement of blockchain platforms has significantly accelerated the growth of decentralized applications (DApps). Similar to traditional applications, DApps integrate front-end descriptions that showcase their features to attract users, and back-end smart contracts for executing their business logic. However, inconsistencies between the features promoted in front-end descriptions and those actually implemented in the contract can confuse users and undermine DApps's trustworthiness. I...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00015)
@@ -198,7 +198,7 @@ Number of papers: 70
 - **Labels**: [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md), [static analysis](../../labels/static_analysis.md), [code summarization](../../labels/code_summarization.md)
 
 
-## [Iterative Generation of Adversarial Example for Deep Code Models](paper_27.md)
+## [Iterative Generation of Adversarial Example for Deep Code Models](paper_26.md)
 - **Authors**: Huang, Li and Sun, Weifeng and Yan, Meng
 - **Abstract**: Deep code models are vulnerable to adversarial attacks, making it possible for semantically identical inputs to trigger different responses. Current black-box attack methods typically prioritize the impact of identifiers on the model based on custom importance scores or program context and incrementally replace identifiers to generate adversarial examples. However, these methods often fail to fully leverage feedback from failed attacks to guide subsequent attacks, resulting in problems such as l...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00086)
@@ -212,7 +212,7 @@ Number of papers: 70
 - **Labels**: [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md)
 
 
-## [LLM Assistance for Memory Safety](paper_15.md)
+## [LLM Assistance for Memory Safety](paper_14.md)
 - **Authors**: Mohammed, Nausheen and Lal, Akash and Rastogi, Aseem and Sharma, Rahul and Roy, Subhajit
 - **Abstract**: Memory safety violations in low-level code, written in languages like C, continues to remain one of the major sources of software vulnerabilities. One method of removing such violations by construction is to port C code to a safe C dialect. Such dialects rely on programmer-supplied annotations to guarantee safety with minimal runtime overhead. This porting, however, is a manual process that imposes significant burden on the programmer and, hence, there has been limited adoption of this technique...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00023)
@@ -275,7 +275,7 @@ Number of papers: 70
 - **Labels**: [software maintenance and deployment](../../labels/software_maintenance_and_deployment.md), [static analysis](../../labels/static_analysis.md), [code summarization](../../labels/code_summarization.md), [code search](../../labels/code_search.md)
 
 
-## [Licoeval: Evaluating LLMs on License Compliance in Code Generation](paper_24.md)
+## [Licoeval: Evaluating LLMs on License Compliance in Code Generation](paper_23.md)
 - **Authors**: Xu, Weiwei and Gao, Kai and He, Hao and Zhou, Minghui
 - **Abstract**: Recent advances in Large Language Models (LLMs) have revolutionized code generation, leading to widespread adoption of AI coding tools by developers. However, LLMs can generate license-protected code without providing the necessary license information, leading to potential intellectual property violations during software production. This paper addresses the critical, yet underexplored, issue of license compliance in LLM-generated code by establishing a benchmark to evaluate the ability of LLMs t...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00052)
@@ -289,7 +289,7 @@ Number of papers: 70
 - **Labels**: [code model](../../labels/code_model.md), [code model training](../../labels/code_model_training.md), [code model robustness](../../labels/code_model_robustness.md)
 
 
-## [Model Editing for LLMs4Code: How Far are we?](paper_22.md)
+## [Model Editing for LLMs4Code: How Far are we?](paper_21.md)
 - **Authors**: Li, Xiaopeng and Wang, Shangwen and Li, Shasha and Ma, Jun and Yu, Jie and Liu, Xiaodong and Wang, Jing and Ji, Bin and Zhang, Weimin
 - **Abstract**: Large Language Models for Code (LLMs4Code) have been found to exhibit outstanding performance in the software engineering domain, especially the remarkable performance in coding tasks. However, even the most advanced LLMs4Code can inevitably contain incorrect or outdated code knowledge. Due to the high cost of training LLMs4Code, it is impractical to re-train the models for fixing these problematic code knowledge. Model editing is a new technical field for effectively and efficiently correcting ...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00049)
@@ -303,14 +303,14 @@ Number of papers: 70
 - **Labels**: [program testing](../../labels/program_testing.md), [debugging](../../labels/debugging.md), [bug reproduction](../../labels/bug_reproduction.md), [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md)
 
 
-## [Neurosymbolic Modular Refinement Type Inference](paper_29.md)
+## [Neurosymbolic Modular Refinement Type Inference](paper_28.md)
 - **Authors**: Sakkas, Georgios and Sahu, Pratyush and Ong, Kyeling and Jhala, Ranjit
 - **Abstract**: Refinement types, a type-based generalization of Floyd-Hoare logics, are an expressive and modular means of statically ensuring a wide variety of correctness, safety, and security properties of software. However, their expressiveness and modularity means that to use them, a developer must laboriously annotate all the functions in their code with potentially complex type specifications that specify the contract for that function. We present LHC, a neurosymbolic agent that uses LLMs to automatical...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00090)
 - **Labels**: [static analysis](../../labels/static_analysis.md), [type inference](../../labels/type_inference.md)
 
 
-## [Planning a Large Language Model for Static Detection of Runtime Errors in Code Snippets](paper_34.md)
+## [Planning a Large Language Model for Static Detection of Runtime Errors in Code Snippets](paper_33.md)
 - **Authors**: Patel, Smit and Yadavally, Aashish and Dhulipala, Hridya and Nguyen, Tien N.
 - **Abstract**: Large Language Models (LLMs) have been excellent in generating and reasoning about source code and natural-language texts. They can recognize patterns, syntax, and semantics in code, making them effective in several software engineering tasks. However, they exhibit weaknesses in reasoning about the program execution. They primarily operate on static code representations, failing to capture the dynamic behavior and state changes that occur during program execution. In this paper, we advance the c...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00102)
@@ -331,7 +331,7 @@ Number of papers: 70
 - **Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
 
 
-## [Reasoning Runtime Behavior of a Program with LLM: How Far are We?](paper_10.md)
+## [Reasoning Runtime Behavior of a Program with LLM: How Far are We?](paper_9.md)
 - **Authors**: Chen, Junkai and Pan, Zhiyuan and Hu, Xing and Li, Zhenhao and Li, Ge and Xia, Xin
 - **Abstract**: Large language models for code (i.e., code LLMs) have shown strong code understanding and generation capabilities. To evaluate the capabilities of code LLMs in various aspects, many benchmarks have been proposed (e.g., HumanEval and ClassEval). Code reasoning is one of the most essential abilities of code LLMs (i.e., predicting code execution behaviors such as program output and execution path), but existing benchmarks for code reasoning are not sufficient. Typically, they focus on predicting th...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00012)
@@ -345,21 +345,21 @@ Number of papers: 70
 - **Labels**: [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md), [agent design](../../labels/agent_design.md)
 
 
-## [Revisiting Unnaturalness for Automated Program Repair in the Era of Large Language Models](paper_28.md)
+## [Revisiting Unnaturalness for Automated Program Repair in the Era of Large Language Models](paper_27.md)
 - **Authors**: Yang, Aidan Z.H. and Kolak, Sophia and Hellendoorn, Vincent and Martins, Ruben and Goues, Claire Le
 - **Abstract**: The problem of software quality has motivated the development of a variety of techniques for Automatic Program Repair (APR). Meanwhile, recent advances in AI and Large Language Models (LLMs) have produced orders of magnitude performance improvements over previous code generation techniques, affording promising opportunities for program repair and its constituent subproblems (e.g., fault localization, patch generation). Because models are trained on large volumes of code in which defects are rela...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00089)
 - **Labels**: [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md)
 
 
-## [Rug: Turbo Llm for Rust Unit Test Generation](paper_31.md)
+## [Rug: Turbo Llm for Rust Unit Test Generation](paper_30.md)
 - **Authors**: Cheng, Xiang and Sang, Fan and Zhai, Yizhuo and Zhang, Xiaokuan and Kim, Taesoo
 - **Abstract**: Unit testing improves software quality by evaluating isolated sections of the program. This approach alleviates the need for comprehensive program-wide testing and confines the potential error scope within the software. However, unit test development is time-consuming, requiring developers to create appropriate test contexts and determine input values to cover different code regions. This problem is particularly pronounced in Rust due to its intricate type system, making traditional unit test ge...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00097)
 - **Labels**: [program testing](../../labels/program_testing.md), [unit testing](../../labels/unit_testing.md), [fuzzing](../../labels/fuzzing.md)
 
 
-## [RustAssistant: Using LLMs to Fix Compilation Errors in Rust Code](paper_14.md)
+## [RustAssistant: Using LLMs to Fix Compilation Errors in Rust Code](paper_13.md)
 - **Authors**: Deligiannis, Pantazis and Lal, Akash and Mehrotra, Nikita and Poddar, Rishi and Rastogi, Aseem
 - **Abstract**: The Rust programming language, with its safety guarantees, has established itself as a viable choice for low-level systems programming language over the traditional, unsafe alternatives like C/C++. These guarantees come from a strong ownership-based type system, as well as primitive support for features like closures, pattern matching, etc., that make the code more concise and amenable to reasoning. These unique Rust features also pose a steep learning curve for programmers. This paper presents ...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00022)
@@ -373,7 +373,7 @@ Number of papers: 70
 - **Labels**: [code generation](../../labels/code_generation.md), [program synthesis](../../labels/program_synthesis.md), [agent design](../../labels/agent_design.md)
 
 
-## [Search-Based LLMs for Code Optimization](paper_13.md)
+## [Search-Based LLMs for Code Optimization](paper_12.md)
 - **Authors**: Gao, Shuzheng and Gao, Cuiyun and Gu, Wenchao and Lyu, Michael R.
 - **Abstract**: The code written by developers usually suffers from efficiency problems and contain various performance bugs. These inefficiencies necessitate the research of automated refactoring methods for code optimization. Early research in code optimization employs rule-based methods and focuses on specific inefficiency issues, which are labor-intensive and suffer from the low coverage issue. Recent work regards the task as a sequence generation problem, and resorts to deep learning (DL) techniques such a...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00021)
@@ -387,14 +387,14 @@ Number of papers: 70
 - **Labels**: [code model](../../labels/code_model.md), [code model security](../../labels/code_model_security.md)
 
 
-## [Source Code Summarization in the Era of Large Language Models](paper_18.md)
+## [Source Code Summarization in the Era of Large Language Models](paper_17.md)
 - **Authors**: Sun, Weisong and Miao, Yun and Li, Yuekang and Zhang, Hongyu and Fang, Chunrong and Liu, Yi and Deng, Gelei and Liu, Yang and Chen, Zhenyu
 - **Abstract**: To support software developers in understanding and maintaining programs, various automatic (source) code summarization techniques have been proposed to generate a concise natural language summary (i.e., comment) for a given code snippet. Recently, the emergence of large language models (LLMs) has led to a great boost in the performance of coderelated tasks. In this paper, we undertake a systematic and comprehensive study on code summarization in the era of LLMs, which covers multiple aspects in...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00034)
 - **Labels**: [static analysis](../../labels/static_analysis.md), [code summarization](../../labels/code_summarization.md), [empirical study](../../labels/empirical_study.md)
 
 
-## [SpecGen: Automated Generation of Formal Program Specifications via Large Language Models](paper_7.md)
+## [SpecGen: Automated Generation of Formal Program Specifications via Large Language Models](paper_37.md)
 - **Authors**: Ma, Lezhi and Liu, Shangqing and Li, Yi and Xie, Xiaofei and Bu, Lei
 - **Abstract**: In the software development process, formal program specifications play a crucial role in various stages, including requirement analysis, software testing, and verification. However, manually crafting formal program specifications is rather difficult, making the job time-consuming and labor-intensive. Moreover, it is even more challenging to write specifications that correctly and comprehensively describe the semantics of complex programs. To reduce the burden on software developers, automated s...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00129)
@@ -408,21 +408,21 @@ Number of papers: 70
 - **Labels**: [code generation](../../labels/code_generation.md), [program repair](../../labels/program_repair.md), [static analysis](../../labels/static_analysis.md), [specification inference](../../labels/specification_inference.md)
 
 
-## [TIGER: A Generating-Then-Ranking Framework for Practical Python Type Inference](paper_12.md)
+## [TIGER: A Generating-Then-Ranking Framework for Practical Python Type Inference](paper_11.md)
 - **Authors**: Wang, Chong and Zhang, Jian and Lou, Yiling and Liu, Mingwei and Sun, Weisong and Liu, Yang and Peng, Xin
 - **Abstract**: Python's dynamic typing system offers flexibility and expressiveness but can lead to type-related errors, prompting the need for automated type inference to enhance type hinting. While existing learning-based approaches show promising inference accuracy, they struggle with practical challenges in comprehensively handling various types, including complex parameterized types and (unseen) user-defined types. In this paper, we introduce TIGER, a two-stage generating-then-ranking (GTR) framework, des...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00019)
 - **Labels**: [static analysis](../../labels/static_analysis.md), [type inference](../../labels/type_inference.md)
 
 
-## [TOGLL: Correct and Strong Test Oracle Generation with LLMS](paper_32.md)
+## [TOGLL: Correct and Strong Test Oracle Generation with LLMS](paper_31.md)
 - **Authors**: Hossain, Soneya Binta and Dwyer, Matthew B.
 - **Abstract**: Test oracles play a crucial role in software testing, enabling effective bug detection. Despite initial promise, neural methods for automated test oracle generation often result in a large number of false positives and weaker test oracles. While LLMs have shown impressive effectiveness in various software engineering tasks, including code generation, test case creation, and bug fixing, there remains a notable absence of large-scale studies exploring their effectiveness in test oracle generation....
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00098)
 - **Labels**: [program testing](../../labels/program_testing.md), [empirical study](../../labels/empirical_study.md)
 
 
-## [Template-Guided Program Repair in the Era of Large Language Models](paper_17.md)
+## [Template-Guided Program Repair in the Era of Large Language Models](paper_16.md)
 - **Authors**: Huang, Kai and Zhang, Jian and Meng, Xiangxin and Liu, Yang
 - **Abstract**: Recent advancements in automated program repair (APR) have been significantly driven by the application of Large Language Models (LLMs). In particular, the integration of LLMs with traditional template-based repair methods has demonstrated effective outcomes. Despite this, the synergy between the strengths of traditional methods and LLMs remains underexploited. This oversight originates from the indiscriminate use of templates and their insufficient coverage. Also, using small-scale LLMs within ...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00030)
@@ -443,7 +443,7 @@ Number of papers: 70
 - **Labels**: [program testing](../../labels/program_testing.md), [fuzzing](../../labels/fuzzing.md), [vulnerability exploitation](../../labels/vulnerability_exploitation.md)
 
 
-## [Towards Neural Synthesis for SMT-Assisted Proof-Oriented Programming](paper_8.md)
+## [Towards Neural Synthesis for SMT-Assisted Proof-Oriented Programming](paper_7.md)
 - **Authors**: Chakraborty, Saikat and Ebner, Gabriel and Bhat, Siddharth and Fakhoury, Sarah and Fatima, Sakina and Lahiri, Shuvendu and Swamy, Nikhil
 - **Abstract**: Proof-oriented programs mix computational content with proofs of program correctness. However, the human effort involved in programming and proving is still substantial, despite the use of Satisfiability Modulo Theories (SMT) solvers to automate proofs in languages such as F*. Seeking to spur research on using AI to automate the construction of proof-oriented programs, we curate a dataset of 600K lines of open-source F* programs and proofs, including software used in production systems ranging f...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00002)
@@ -464,7 +464,7 @@ Number of papers: 70
 - **Labels**: [program testing](../../labels/program_testing.md), [debugging](../../labels/debugging.md)
 
 
-## [Unseen Horizons: Unveiling the Real Capability of LLM Code Generation Beyond the Familiar](paper_26.md)
+## [Unseen Horizons: Unveiling the Real Capability of LLM Code Generation Beyond the Familiar](paper_25.md)
 - **Authors**: Zhang, Yuanliang and Xie, Yifan and Lit, Shanshan and Liu, Ke and Wang, Chong and Jia, Zhouyang and Huang, Xiangbing and Song, Jie and Luo, Chaopeng and Zheng, Zhizheng and Xu, Rulin and Liu, Yitong and Zheng, Si and Liao, Xiangke
 - **Abstract**: Recently, large language models (LLMs) have shown strong potential in code generation tasks. However, there are still gaps before they can be fully applied in actual software development processes. Accurately assessing the code generation capabilities of large language models has become an important basis for evaluating and improving the models. Some existing works have constructed datasets to evaluate the capabilities of these models. However, the current evaluation process may encounter the il...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00082)
@@ -478,7 +478,7 @@ Number of papers: 70
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md), [benchmark](../../labels/benchmark.md)
 
 
-## [Your Fix Is My Exploit: Enabling Comprehensive DL Library API Fuzzing with Large Language Models](paper_21.md)
+## [Your Fix Is My Exploit: Enabling Comprehensive DL Library API Fuzzing with Large Language Models](paper_20.md)
 - **Authors**: Zhang, Kunpeng and Wang, Shuai and Han, Jitao and Zhu, Xiaogang and Li, Xian and Wang, Shaohua and Wen, Sheng
 - **Abstract**: Deep learning (DL) libraries are widely used to form the basis of various AI applications in computer vision, natural language processing, and software engineering domains. Despite their popularity, DL libraries are known to have vulnerabilities, such as buffer overflows, use-after-free, and integer overflows, that can be exploited to compromise the security or effectiveness of the underlying libraries. While traditional fuzzing techniques have been used to find bugs in software, they are not we...
 - **Link**: [Read Paper](https://doi.ieeecomputersociety.org/10.1109/ICSE55347.2025.00041)

@@ -18,7 +18,7 @@
   - **Labels**: [static analysis](static_analysis.md), [type inference](type_inference.md)
 
 
-- [Neurosymbolic Modular Refinement Type Inference](../venues/ICSE2025/paper_29.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [Neurosymbolic Modular Refinement Type Inference](../venues/ICSE2025/paper_28.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Refinement types, a type-based generalization of Floyd-Hoare logics, are an expressive and modular means of statically ensuring a wide variety of correctness, safety, and security properties of software. However, their expressiveness and modularity means that to use them, a developer must laboriously annotate all the functions in their code with potentially complex type specifications that specify the contract for that function. We present LHC, a neurosymbolic agent that uses LLMs to automatical...
   - **Labels**: [static analysis](static_analysis.md), [type inference](type_inference.md)
@@ -36,7 +36,7 @@
   - **Labels**: [static analysis](static_analysis.md), [type inference](type_inference.md), [bug detection](bug_detection.md), [empirical study](empirical_study.md)
 
 
-- [TIGER: A Generating-Then-Ranking Framework for Practical Python Type Inference](../venues/ICSE2025/paper_12.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [TIGER: A Generating-Then-Ranking Framework for Practical Python Type Inference](../venues/ICSE2025/paper_11.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Python's dynamic typing system offers flexibility and expressiveness but can lead to type-related errors, prompting the need for automated type inference to enhance type hinting. While existing learning-based approaches show promising inference accuracy, they struggle with practical challenges in comprehensively handling various types, including complex parameterized types and (unseen) user-defined types. In this paper, we introduce TIGER, a two-stage generating-then-ranking (GTR) framework, des...
   - **Labels**: [static analysis](static_analysis.md), [type inference](type_inference.md)

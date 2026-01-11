@@ -24,6 +24,12 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
 
 
+- [From One Thousand Pages of Specification to Unveiling Hidden Bugs:Large Language Model Assisted Fuzzing of Matter IoT Devices](../venues/USENIXSec2024/paper_5.md), ([USENIXSec2024](../venues/USENIXSec2024/README.md))
+
+  - **Abstract**: Matter is an IoT connectivity standard backed by over two hundred companies. Since the release of its specification in October 2022, numerous IoT devices have become Matter-compatible. Identifying bugs and vulnerabilities in Matter devices is thus an emerging important problem. This paper introduces mGPTFuzz, the first Matter fuzzer in the literature. Our approach harnesses the extensive and detailed information within the Matter specification to guide the generation of test inputs. However, due...
+  - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
+
+
 - [Fuzz4All: Universal Fuzzing with Large Language Models](../venues/ICSE2024/paper_15.md), ([ICSE2024](../venues/ICSE2024/README.md))
 
   - **Abstract**: Fuzzing has achieved tremendous success in discovering bugs and vulnerabilities in various software systems. Systems under test (SUTs) that take in programming or formal language as inputs, e.g., compilers, runtime engines, constraint solvers, and software libraries with accessible APIs, are especially important as they are fundamental building blocks of software development. However, existing fuzzers for such systems often target a specific language, and thus cannot be easily applied to other l...
@@ -120,7 +126,7 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)
 
 
-- [Rug: Turbo Llm for Rust Unit Test Generation](../venues/ICSE2025/paper_31.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [Rug: Turbo Llm for Rust Unit Test Generation](../venues/ICSE2025/paper_30.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Unit testing improves software quality by evaluating isolated sections of the program. This approach alleviates the need for comprehensive program-wide testing and confines the potential error scope within the software. However, unit test development is time-consuming, requiring developers to create appropriate test contexts and determine input values to cover different code regions. This problem is particularly pronounced in Rust due to its intricate type system, making traditional unit test ge...
   - **Labels**: [program testing](program_testing.md), [unit testing](unit_testing.md), [fuzzing](fuzzing.md)
@@ -174,7 +180,7 @@
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md), [compiler testing](compiler_testing.md)
 
 
-- [Your Fix Is My Exploit: Enabling Comprehensive DL Library API Fuzzing with Large Language Models](../venues/ICSE2025/paper_21.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [Your Fix Is My Exploit: Enabling Comprehensive DL Library API Fuzzing with Large Language Models](../venues/ICSE2025/paper_20.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Deep learning (DL) libraries are widely used to form the basis of various AI applications in computer vision, natural language processing, and software engineering domains. Despite their popularity, DL libraries are known to have vulnerabilities, such as buffer overflows, use-after-free, and integer overflows, that can be exploited to compromise the security or effectiveness of the underlying libraries. While traditional fuzzing techniques have been used to find bugs in software, they are not we...
   - **Labels**: [program testing](program_testing.md), [fuzzing](fuzzing.md)

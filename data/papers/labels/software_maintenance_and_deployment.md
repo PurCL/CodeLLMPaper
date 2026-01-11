@@ -84,7 +84,7 @@
 
 ## Commit Message Generation
 
-- [An Empirical Study on Commit Message Generation Using LLMs via In-Context Learning](../venues/ICSE2025/paper_30.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [An Empirical Study on Commit Message Generation Using LLMs via In-Context Learning](../venues/ICSE2025/paper_29.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Commit messages concisely describe code changes in natural language and are important for software maintenance. Several approaches have been proposed to automatically generate commit messages, but they still suffer from critical limitations, such as time-consuming training and poor generalization ability. To tackle these limitations, we propose to borrow the weapon of large language models (LLMs) and in-context learning (ICL). Our intuition is based on the fact that the training corpora of LLMs ...
   - **Labels**: [software maintenance and deployment](software_maintenance_and_deployment.md), [commit message generation](commit_message_generation.md), [empirical study](empirical_study.md)

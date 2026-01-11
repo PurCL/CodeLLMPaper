@@ -1,6 +1,6 @@
 # arXiv2025
 
-Number of papers: 29
+Number of papers: 30
 
 ## [AI Software Engineer: Programming with Trust](paper_23.md)
 - **Authors**: Abhik Roychoudhury, Corina Pasareanu, Michael Pradel, Baishakhi Ray
@@ -14,6 +14,13 @@ Number of papers: 29
 - **Abstract**: Large Language Model (LLM) agents offer a powerful new paradigm for solving various problems by combining natural language reasoning with the execution of external tools. However, their dynamic and non-transparent behavior introduces critical security risks, particularly in the presence of prompt injection attacks. In this work, we propose a novel insight that treats the agent runtime traces as structured programs with analyzable semantics. Thus, we present AgentArmor, a program analysis framewo...
 - **Link**: [Read Paper](https://www.arxiv.org/abs/2508.01249)
 - **Labels**: [agent design](../../labels/agent_design.md), [agent security](../../labels/agent_security.md)
+
+
+## [Agentic Program Verification](paper_25.md)
+- **Authors**: Haoxin Tu, Huan Zhao, Yahui Song, Mehtab Zafar, Ruijie Meng, Abhik Roychoudhury
+- **Abstract**: Automatically generated code is gaining traction recently, owing to the prevalence of Large Language Models (LLMs). Further, the AlphaProof initiative has demonstrated the possibility of using AI for general mathematical reasoning. Reasoning about computer programs (software) can be accomplished via general mathematical reasoning; however, it tends to be more structured and richer in contexts. This forms an attractive proposition, since then AI agents can be used to reason about voluminous code ...
+- **Link**: [Read Paper](https://arxiv.org/pdf/2511.17330)
+- **Labels**: [static analysis](../../labels/static_analysis.md), [program verification](../../labels/program_verification.md)
 
 
 ## [Are “Solved Issues” in SWE-bench Really Solved Correctly?](paper_15.md)
@@ -37,7 +44,7 @@ Number of papers: 29
 - **Labels**: [program testing](../../labels/program_testing.md), [vulnerability exploitation](../../labels/vulnerability_exploitation.md), [benchmark](../../labels/benchmark.md)
 
 
-## [C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques](paper_27.md)
+## [C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques](paper_28.md)
 - **Authors**: Vikram Nitin, Rahul Krishna, Luiz Lemos do Valle, Baishakhi Ray
 - **Abstract**: In recent years, there has been a lot of interest in converting C code to Rust, to benefit from the memory and thread safety guarantees of Rust. C2Rust is a rule-based system that can automatically convert C code to functionally identical Rust, but the Rust code that it produces is non-idiomatic, i.e., makes extensive use of unsafe Rust, a subset of the language that doesn't have memory or thread safety guarantees. At the other end of the spectrum are LLMs, which produce idiomatic Rust code, but...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2501.14257)
@@ -107,7 +114,7 @@ Number of papers: 29
 - **Labels**: [agent design](../../labels/agent_design.md), [hallucination in reasoning](../../labels/hallucination_in_reasoning.md), [survey](../../labels/survey.md)
 
 
-## [Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs](paper_26.md)
+## [Hierarchical Repository-Level Code Summarization for Business Applications Using Local LLMs](paper_27.md)
 - **Authors**: Nilesh Dhulshette, Sapan Shah, Vinay Kulkarni
 - **Abstract**: In large-scale software development, understanding the functionality and intent behind complex codebases is critical for effective development and maintenance. While code summarization has been widely studied, existing methods primarily focus on smaller code units, such as functions, and struggle with larger code artifacts like files and packages. Additionally, current summarization models tend to emphasize low-level implementation details, often overlooking the domain and business context that ...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2501.07857)
@@ -142,7 +149,7 @@ Number of papers: 29
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
 
 
-## [LLM-Based Repair of Static Nullability Errors](paper_28.md)
+## [LLM-Based Repair of Static Nullability Errors](paper_29.md)
 - **Authors**: Karimipour, Nima and Pradel, Michael and Kellogg, Martin and Sridharan, Manu
 - **Abstract**: Modern Java projects increasingly adopt static analysis tools that prevent null-pointer exceptions by treating nullness as a type property. However, integrating such tools into large, existing codebases remains a significant challenge. While annotation inference can eliminate many errors automatically, a subset of residual errors -- typically a mix of real bugs and false positives -- often persist and can only be resolved via code changes. Manually addressing these errors is tedious and error-pr...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2507.20674)
@@ -156,7 +163,7 @@ Number of papers: 29
 - **Labels**: [static analysis](../../labels/static_analysis.md), [program optimization](../../labels/program_optimization.md), [survey](../../labels/survey.md)
 
 
-## [Large Language Model powered Symbolic Execution](paper_25.md)
+## [Large Language Model powered Symbolic Execution](paper_26.md)
 - **Authors**: Yihe Li, Ruijie Meng, Gregory J. Duck
 - **Abstract**: Large Language Models (LLMs) have emerged as a promising alternative to traditional static program analysis methods, such as symbolic execution, offering the ability to reason over code directly without relying on theorem provers or SMT solvers. However, LLMs are also inherently probabilistic by nature, and therefore face significant challenges in relation to the accuracy and scale of the analysis in real-world application. Such issues often necessitate the use of larger LLMs with higher token l...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2505.13452)
@@ -170,7 +177,7 @@ Number of papers: 29
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md)
 
 
-## [PoCGen: Generating Proof-of-Concept Exploits for Vulnerabilities in Npm Packages](paper_29.md)
+## [PoCGen: Generating Proof-of-Concept Exploits for Vulnerabilities in Npm Packages](paper_30.md)
 - **Authors**: Simsek, Deniz and Eghbali, Aryaz and Pradel, Michael
 - **Abstract**: Security vulnerabilities in software packages are a significant concern for developers and users alike. Patching these vulnerabilities in a timely manner is crucial to restoring the integrity and security of software systems. However, previous work has shown that vulnerability reports often lack proof-of-concept (PoC) exploits, which are essential for fixing the vulnerability, testing patches, and avoiding regressions. Creating a PoC exploit is challenging because vulnerability reports are infor...
 - **Link**: [Read Paper](https://arxiv.org/pdf/2506.04962)

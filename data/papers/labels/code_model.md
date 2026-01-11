@@ -528,7 +528,7 @@
 
 ## Code Model Security
 
-- [An Empirical Study on Automatically Detecting AI-Generated Source Code: How Far are We?](../venues/ICSE2025/paper_25.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [An Empirical Study on Automatically Detecting AI-Generated Source Code: How Far are We?](../venues/ICSE2025/paper_24.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Artificial Intelligence (AI) techniques, especially Large Language Models (LLMs), have started gaining popularity among researchers and software developers for generating source code. However, LLMs have been shown to generate code with quality issues and also incurred copyright/licensing infringements. Therefore, detecting whether a piece of source code is written by humans or AI has become necessary. This study first presents an empirical analysis to investigate the effectiveness of the existin...
   - **Labels**: [code model](code_model.md), [code model security](code_model_security.md), [empirical study](empirical_study.md)
@@ -728,7 +728,7 @@
 
 ## Code Model Robustness
 
-- [Calibration and Correctness of Language Models for Code](../venues/ICSE2025/paper_20.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [Calibration and Correctness of Language Models for Code](../venues/ICSE2025/paper_19.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Machine learning models are widely used, but can also often be wrong. Users would benefit from a reliable indication of whether a given output from a given model should be trusted, so a rational decision can be made whether to use the output or not. For example, outputs can be associated with a confidence measure; if this confidence measure is strongly associated with likelihood of correctness, then the model is said to be well-calibrated. A well-calibrated confidence measure can serve as a basi...
   - **Labels**: [code model](code_model.md), [code model robustness](code_model_robustness.md)
@@ -746,7 +746,7 @@
   - **Labels**: [general coding task](general_coding_task.md), [code generation](code_generation.md), [code model](code_model.md), [code model robustness](code_model_robustness.md)
 
 
-- [Iterative Generation of Adversarial Example for Deep Code Models](../venues/ICSE2025/paper_27.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [Iterative Generation of Adversarial Example for Deep Code Models](../venues/ICSE2025/paper_26.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Deep code models are vulnerable to adversarial attacks, making it possible for semantically identical inputs to trigger different responses. Current black-box attack methods typically prioritize the impact of identifiers on the model based on custom importance scores or program context and incrementally replace identifiers to generate adversarial examples. However, these methods often fail to fully leverage feedback from failed attacks to guide subsequent attacks, resulting in problems such as l...
   - **Labels**: [code model](code_model.md), [code model robustness](code_model_robustness.md)

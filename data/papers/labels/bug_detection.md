@@ -18,7 +18,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
-- [An LLM-Based Agent-Oriented Approach for Automated Code Design Issue Localization](../venues/ICSE2025/paper_33.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [An LLM-Based Agent-Oriented Approach for Automated Code Design Issue Localization](../venues/ICSE2025/paper_32.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Maintaining software design quality is crucial for the long-term maintainability and evolution of systems. However, design issues such as poor modularity and excessive complexity often emerge as codebases grow. Developers rely on external tools, such as program analysis techniques, to identify such issues. This work leverages Large Language Models (LLMs) to develop an automated approach for analyzing and localizing design issues. Large language models have demonstrated significant performance on...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -73,7 +73,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
-- [CellularLint: A Systematic Approach to Identify Inconsistent Behavior in Cellular Network Specifications](../venues/USENIXSec2024/paper_6.md), ([USENIXSec2024](../venues/USENIXSec2024/README.md))
+- [CellularLint: A Systematic Approach to Identify Inconsistent Behavior in Cellular Network Specifications](../venues/USENIXSec2024/paper_7.md), ([USENIXSec2024](../venues/USENIXSec2024/README.md))
 
   - **Abstract**: In recent years, there has been a growing focus on scrutinizing the security of cellular networks, often attributing security vulnerabilities to issues in the underlying protocol design descriptions. These protocol design specifications, typically extensive documents that are thousands of pages long, can harbor inaccuracies, underspecifications, implicit assumptions, and internal inconsistencies. In light of the evolving landscape, we introduce CellularLint—a semi-automatic framework for inconsi...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [specification inference](specification_inference.md)
@@ -85,7 +85,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [code generation](code_generation.md), [program repair](program_repair.md), [empirical study](empirical_study.md)
 
 
-- [Code Comment Inconsistency Detection and Rectification Using a Large Language Model](../venues/ICSE2025/paper_19.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [Code Comment Inconsistency Detection and Rectification Using a Large Language Model](../venues/ICSE2025/paper_18.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Comments are widely used in source code. If a comment is consistent with the code snippet it intends to annotate, it would aid code comprehension. Otherwise, Code Comment Inconsistency (CCI) is not only detrimental to the understanding of code, but more importantly, it would negatively impact the development, testing, and maintenance of software. To tackle this issue, existing research has been primarily focused on detecting inconsistencies with varied performance. It is evident that detection a...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -103,7 +103,7 @@
   - **Labels**: [code generation](code_generation.md), [bug detection](bug_detection.md)
 
 
-- [Combining Fine-Tuning and LLM-Based Agents for Intuitive Smart Contract Auditing with Justifications](../venues/ICSE2025/paper_16.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [Combining Fine-Tuning and LLM-Based Agents for Intuitive Smart Contract Auditing with Justifications](../venues/ICSE2025/paper_15.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Smart contracts are decentralized applications built atop blockchains like Ethereum. Recent research has shown that large language models (LLMs) have potential in auditing smart contracts, but the state-of-the-art indicates that even GPT-4 can achieve only 30% precision (when both decision and justification are correct). This is likely because off-the-shelf LLMs were primarily pre-trained on a general text/code corpus and not fine-tuned on the specific domain of Solidity smart contract auditing....
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -247,7 +247,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
-- [Hermes: Unlocking Security Analysis of Cellular Network Protocols by Synthesizing Finite State Machines from Natural Language Specifications](../venues/USENIXSec2024/paper_5.md), ([USENIXSec2024](../venues/USENIXSec2024/README.md))
+- [Hermes: Unlocking Security Analysis of Cellular Network Protocols by Synthesizing Finite State Machines from Natural Language Specifications](../venues/USENIXSec2024/paper_6.md), ([USENIXSec2024](../venues/USENIXSec2024/README.md))
 
   - **Abstract**: In this paper, we present Hermes, an end-to-end framework to automatically generate formal representations from natural language cellular specifications. We first develop a neural constituency parser, NEUTREX, to process transition-relevant texts and extract transition components (i.e., states, conditions, and actions). We also design a domain-specific language to translate these transition components to logical formulas by leveraging dependency parse trees. Finally, we compile these logical for...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [specification inference](specification_inference.md)
@@ -259,7 +259,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md), [benchmark](benchmark.md)
 
 
-- [Hyperion: Unveiling DApp Inconsistencies Using LLM and Dataflow-Guided Symbolic Execution](../venues/ICSE2025/paper_11.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [Hyperion: Unveiling DApp Inconsistencies Using LLM and Dataflow-Guided Symbolic Execution](../venues/ICSE2025/paper_10.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: The rapid advancement of blockchain platforms has significantly accelerated the growth of decentralized applications (DApps). Similar to traditional applications, DApps integrate front-end descriptions that showcase their features to attract users, and back-end smart contracts for executing their business logic. However, inconsistencies between the features promoted in front-end descriptions and those actually implemented in the contract can confuse users and undermine DApps's trustworthiness. I...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
@@ -385,7 +385,7 @@
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)
 
 
-- [Planning a Large Language Model for Static Detection of Runtime Errors in Code Snippets](../venues/ICSE2025/paper_34.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [Planning a Large Language Model for Static Detection of Runtime Errors in Code Snippets](../venues/ICSE2025/paper_33.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Large Language Models (LLMs) have been excellent in generating and reasoning about source code and natural-language texts. They can recognize patterns, syntax, and semantics in code, making them effective in several software engineering tasks. However, they exhibit weaknesses in reasoning about the program execution. They primarily operate on static code representations, failing to capture the dynamic behavior and state changes that occur during program execution. In this paper, we advance the c...
   - **Labels**: [static analysis](static_analysis.md), [bug detection](bug_detection.md)

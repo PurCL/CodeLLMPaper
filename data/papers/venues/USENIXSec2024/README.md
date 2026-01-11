@@ -1,12 +1,19 @@
 # USENIXSec2024
 
-Number of papers: 6
+Number of papers: 7
 
-## [CellularLint: A Systematic Approach to Identify Inconsistent Behavior in Cellular Network Specifications](paper_6.md)
+## [CellularLint: A Systematic Approach to Identify Inconsistent Behavior in Cellular Network Specifications](paper_7.md)
 - **Authors**: Mirza Masfiqur Rahman, Imtiaz Karim, and Elisa Bertino
 - **Abstract**: In recent years, there has been a growing focus on scrutinizing the security of cellular networks, often attributing security vulnerabilities to issues in the underlying protocol design descriptions. These protocol design specifications, typically extensive documents that are thousands of pages long, can harbor inaccuracies, underspecifications, implicit assumptions, and internal inconsistencies. In light of the evolving landscape, we introduce CellularLint—a semi-automatic framework for inconsi...
 - **Link**: [Read Paper](https://www.usenix.org/system/files/usenixsecurity24-rahman.pdf)
 - **Labels**: [static analysis](../../labels/static_analysis.md), [bug detection](../../labels/bug_detection.md), [specification inference](../../labels/specification_inference.md)
+
+
+## [From One Thousand Pages of Specification to Unveiling Hidden Bugs:Large Language Model Assisted Fuzzing of Matter IoT Devices](paper_5.md)
+- **Authors**: Xiaoyue Ma, Lannan Luo, and Qiang Zeng
+- **Abstract**: Matter is an IoT connectivity standard backed by over two hundred companies. Since the release of its specification in October 2022, numerous IoT devices have become Matter-compatible. Identifying bugs and vulnerabilities in Matter devices is thus an emerging important problem. This paper introduces mGPTFuzz, the first Matter fuzzer in the literature. Our approach harnesses the extensive and detailed information within the Matter specification to guide the generation of test inputs. However, due...
+- **Link**: [Read Paper](https://www.usenix.org/conference/usenixsecurity24/presentation/ma-xiaoyue)
+- **Labels**: [program testing](../../labels/program_testing.md), [fuzzing](../../labels/fuzzing.md)
 
 
 ## [Fuzzing BusyBox: Leveraging LLM and Crash Reuse for Embedded Bug Unearthing](paper_4.md)
@@ -16,7 +23,7 @@ Number of papers: 6
 - **Labels**: [program testing](../../labels/program_testing.md), [fuzzing](../../labels/fuzzing.md)
 
 
-## [Hermes: Unlocking Security Analysis of Cellular Network Protocols by Synthesizing Finite State Machines from Natural Language Specifications](paper_5.md)
+## [Hermes: Unlocking Security Analysis of Cellular Network Protocols by Synthesizing Finite State Machines from Natural Language Specifications](paper_6.md)
 - **Authors**: Abdullah Al Ishtiaq, Sarkar Snigdha Sarathi Das, Syed Md Mukit Rashid, Ali Ranjbar, Kai Tu, Tianwei Wu, Zhezheng Song, Weixuan Wang, Mujtahid Akon, Rui Zhang, Syed Rafiul Hussain
 - **Abstract**: In this paper, we present Hermes, an end-to-end framework to automatically generate formal representations from natural language cellular specifications. We first develop a neural constituency parser, NEUTREX, to process transition-relevant texts and extract transition components (i.e., states, conditions, and actions). We also design a domain-specific language to translate these transition components to logical formulas by leveraging dependency parse trees. Finally, we compile these logical for...
 - **Link**: [Read Paper](https://arxiv.org/abs/2310.04381)

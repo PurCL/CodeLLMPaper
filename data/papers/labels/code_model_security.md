@@ -1,6 +1,6 @@
 # Code Model Security
 
-- [An Empirical Study on Automatically Detecting AI-Generated Source Code: How Far are We?](../venues/ICSE2025/paper_25.md), ([ICSE2025](../venues/ICSE2025/README.md))
+- [An Empirical Study on Automatically Detecting AI-Generated Source Code: How Far are We?](../venues/ICSE2025/paper_24.md), ([ICSE2025](../venues/ICSE2025/README.md))
 
   - **Abstract**: Artificial Intelligence (AI) techniques, especially Large Language Models (LLMs), have started gaining popularity among researchers and software developers for generating source code. However, LLMs have been shown to generate code with quality issues and also incurred copyright/licensing infringements. Therefore, detecting whether a piece of source code is written by humans or AI has become necessary. This study first presents an empirical analysis to investigate the effectiveness of the existin...
   - **Labels**: [code model](code_model.md), [code model security](code_model_security.md), [empirical study](empirical_study.md)
