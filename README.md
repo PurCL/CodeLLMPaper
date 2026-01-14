@@ -74,7 +74,7 @@ The papers in this repository are categorized along three dimensions: **Applicat
 
 This category focuses on typical tasks in Software Engineering (SE) and Programming Languages (PL).
 
-- [General Coding Task](data/papers/labels/general_coding_task.md)   (36)
+- [General Coding Task](data/papers/labels/general_coding_task.md)   (37)
 - [Code Generation](data/papers/labels/code_generation.md)   (270)
   - [Program Synthesis](data/papers/labels/program_synthesis.md)   (108)
   - [Code Completion](data/papers/labels/code_completion.md)   (25)
@@ -94,7 +94,7 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Debugging](data/papers/labels/debugging.md)   (16)
   - [Bug Reproduction](data/papers/labels/bug_reproduction.md)   (6)
   - [Vulnerability Exploitation](data/papers/labels/vulnerability_exploitation.md)   (12)
-- [Static Analysis](data/papers/labels/static_analysis.md)   (207)
+- [Static Analysis](data/papers/labels/static_analysis.md)   (208)
   - [Syntactic Analysis](data/papers/labels/syntactic_analysis.md)   (1)
   - [Pointer Analysis](data/papers/labels/pointer_analysis.md)   (3)
   - [Call Graph Analysis](data/papers/labels/call_graph_analysis.md)   (4)
@@ -105,7 +105,7 @@ This category focuses on typical tasks in Software Engineering (SE) and Programm
   - [Specification Inference](data/papers/labels/specification_inference.md)   (21)
   - [Equivalence Checking](data/papers/labels/equivalence_checking.md)   (2)
   - [Code Similarity Analysis](data/papers/labels/code_similarity_analysis.md)   (8)
-  - [Bug Detection](data/papers/labels/bug_detection.md)   (104)
+  - [Bug Detection](data/papers/labels/bug_detection.md)   (105)
   - [Program Verification](data/papers/labels/program_verification.md)   (28)
   - [Program Optimization](data/papers/labels/program_optimization.md)   (8)
   - [Program Decompilation](data/papers/labels/program_decompilation.md)   (12)
@@ -147,7 +147,7 @@ This category includes studies on benchmarks, empirical evaluations, and surveys
 
 - [Benchmark](data/papers/labels/benchmark.md)   (1)
 - [Empirical Study](data/papers/labels/empirical_study.md)   (108)
-- [Survey](data/papers/labels/survey.md)   (19)
+- [Survey](data/papers/labels/survey.md)   (20)
 
 ## D. How to Contribute
 

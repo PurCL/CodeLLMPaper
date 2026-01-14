@@ -828,7 +828,7 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md), [empirical study](empirical_study.md)
 
 
-- [Are “Solved Issues” in SWE-bench Really Solved Correctly?](../venues/arXiv2025/paper_15.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Are “Solved Issues” in SWE-bench Really Solved Correctly?](../venues/arXiv2025/paper_16.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Automated issue solving aims to resolve real-world issues in software repositories. The most popular benchmarks for automated issue solving are SWE-bench and its human-filtered subset SWE-bench Verified. These benchmarks leverage testing to validate generated patches. However, because testing is rarely exhaustive, a patch may pass the tests but nevertheless fail to match the developers' expectations. Unfortunately, it is currently unclear to what extent evaluations performed with SWE-bench suffe...
   - **Labels**: [benchmark](benchmark.md), [code generation](code_generation.md), [program repair](program_repair.md)
@@ -978,7 +978,7 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
-- [Fixing 7,400 Bugs for 1$: Cheap Crash-Site Program Repair](../venues/arXiv2025/paper_19.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Fixing 7,400 Bugs for 1$: Cheap Crash-Site Program Repair](../venues/arXiv2025/paper_20.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: The rapid advancement of bug-finding techniques has led to the discovery of more vulnerabilities than developers can reasonably fix, creating an urgent need for effective Automated Program Repair (APR) methods. However, the complexity of modern bugs often makes precise root cause analysis difficult and unreliable. To address this challenge, we propose crash-site repair to simplify the repair task while still mitigating the risk of exploitation. In addition, we introduce a template-guided patch g...
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
@@ -1038,7 +1038,7 @@
   - **Labels**: [code generation](code_generation.md), [program repair](program_repair.md)
 
 
-- [LLM-Based Repair of Static Nullability Errors](../venues/arXiv2025/paper_29.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [LLM-Based Repair of Static Nullability Errors](../venues/arXiv2025/paper_31.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Modern Java projects increasingly adopt static analysis tools that prevent null-pointer exceptions by treating nullness as a type property. However, integrating such tools into large, existing codebases remains a significant challenge. While annotation inference can eliminate many errors automatically, a subset of residual errors -- typically a mix of real bugs and false positives -- often persist and can only be resolved via code changes. Manually addressing these errors is tedious and error-pr...
   - **Labels**: [program repair](program_repair.md)
@@ -1262,13 +1262,13 @@
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md), [empirical study](empirical_study.md)
 
 
-- [C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques](../venues/arXiv2025/paper_28.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [C2SaferRust: Transforming C Projects into Safer Rust with NeuroSymbolic Techniques](../venues/arXiv2025/paper_30.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: In recent years, there has been a lot of interest in converting C code to Rust, to benefit from the memory and thread safety guarantees of Rust. C2Rust is a rule-based system that can automatically convert C code to functionally identical Rust, but the Rust code that it produces is non-idiomatic, i.e., makes extensive use of unsafe Rust, a subset of the language that doesn't have memory or thread safety guarantees. At the other end of the spectrum are LLMs, which produce idiomatic Rust code, but...
   - **Labels**: [code generation](code_generation.md), [program transformation](program_transformation.md)
 
 
-- [CRUST-Bench: A Comprehensive Benchmark for C-to-safe-Rust Transpilation](../venues/arXiv2025/paper_6.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [CRUST-Bench: A Comprehensive Benchmark for C-to-safe-Rust Transpilation](../venues/arXiv2025/paper_7.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: C-to-Rust transpilation is essential for modernizing legacy C code while enhancing safety and interoperability with modern Rust ecosystems. However, no dataset currently exists for evaluating whether a system can transpile C into safe Rust that passes a set of test cases. We introduce CRUST-Bench, a dataset of 100 C repositories, each paired with manually-written interfaces in safe Rust as well as test cases that can be used to validate correctness of the transpilation. By considering entire rep...
   - **Labels**: [benchmark](benchmark.md), [code generation](code_generation.md), [program transformation](program_transformation.md)

@@ -1,6 +1,6 @@
 # Program Verification
 
-- [Agentic Program Verification](../venues/arXiv2025/paper_25.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Agentic Program Verification](../venues/arXiv2025/paper_27.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Automatically generated code is gaining traction recently, owing to the prevalence of Large Language Models (LLMs). Further, the AlphaProof initiative has demonstrated the possibility of using AI for general mathematical reasoning. Reasoning about computer programs (software) can be accomplished via general mathematical reasoning; however, it tends to be more structured and richer in contexts. This forms an attractive proposition, since then AI agents can be used to reason about voluminous code ...
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
@@ -30,7 +30,7 @@
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)
 
 
-- [ClassInvGen: Class Invariant Synthesis using Large Language Models](../venues/arXiv2025/paper_14.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [ClassInvGen: Class Invariant Synthesis using Large Language Models](../venues/arXiv2025/paper_15.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Formal program specifications in the form of preconditions, postconditions, and class invariants have several benefits for the construction and maintenance of programs. They not only aid in program understanding due to their unambiguous semantics but can also be enforced dynamically (or even statically when the language supports a formal verifier). However, synthesizing high-quality specifications in an underlying programming language is limited by the expressivity of the specifications or the n...
   - **Labels**: [static analysis](static_analysis.md), [program verification](program_verification.md)

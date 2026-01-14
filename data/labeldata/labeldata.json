@@ -5924,6 +5924,23 @@
         ],
         "url": "https://arxiv.org/pdf/2410.15631"
     },
+    "Challenges and Paths Towards AI for Software Engineering": {
+        "type": "article",
+        "key": "gu2025aise",
+        "title": "Challenges and Paths Towards AI for Software Engineering",
+        "author": "Gu, Alex and Jain, Naman and Li, Wen-Ding and Shetty, Manish and Shao, Yijia and Li, Ziyang and Yang, Diyi and Ellis, Kevin and Sen, Koushik and Solar-Lezama, Armando",
+        "journal": "arXiv preprint arXiv:2503.22625",
+        "year": "2025",
+        "volume": "",
+        "number": "",
+        "venue": "arXiv2025",
+        "abstract": "AI for software engineering has made remarkable progress recently, becoming a notable success within generative AI. Despite this progress, many challenges remain before automated software engineering can reach its full potential. This paper presents a structured taxonomy of AI-for-SE tasks beyond code generation, identifies key technical bottlenecks limiting current approaches, and outlines promising research directions toward higher levels of automation in software engineering.",
+        "labels": [
+            "survey",
+            "general coding task"
+        ],
+        "url": "https://arxiv.org/pdf/2503.22625"
+    },
     "Prompting Large Language Models to Tackle the Full Software Development Lifecycle: A Case Study": {
         "type": "article",
         "key": "devbench2025",
@@ -8596,6 +8613,21 @@
             "fuzzing"
         ],
         "url": "https://arxiv.org/pdf/2312.17677.pdf"
+    },
+    "QLCoder: A Query Synthesizer For Static Analysis of Security Vulnerabilities": {
+        "type": "article",
+        "key": "lyu2023prompt",
+        "title": "QLCoder: A Query Synthesizer For Static Analysis of Security Vulnerabilities",
+        "author": "Claire Wang, Ziyang Li, Saikat Dutta, Mayur Naik",
+        "journal": "arXiv preprint arXiv:2511.08462",
+        "year": "2025",
+        "venue": "arXiv2025",
+        "abstract": "Static analysis tools provide a powerful means to detect security vulnerabilities by specifying queries that encode vulnerable code patterns. However, writing such queries is challenging and requires diverse expertise in security and program analysis. To address this challenge, we present QLCoder - an agentic framework that automatically synthesizes queries in CodeQL, a powerful static analysis engine, directly from a given CVE metadata. QLCode embeds an LLM in a synthesis loop with execution feedback, while constraining its reasoning using a custom MCP interface that allows structured interaction with a Language Server Protocol (for syntax guidance) and a RAG database (for semantic retrieval of queries and documentation). This approach allows QLCoder to generate syntactically and semantically valid security queries. We evaluate QLCode on 176 existing CVEs across 111 Java projects. Building upon the Claude Code agent framework, QLCoder synthesizes correct queries that detect the CVE in the vulnerable but not in the patched versions for 53.4% of CVEs. In comparison, using only Claude Code synthesizes 10% correct queries.",
+        "labels": [
+            "static analysis",
+            "bug detection"
+        ],
+        "url": "https://arxiv.org/pdf/2511.08462"
     },
     "Formal Mathematical Reasoning: A New Frontier in AI": {
         "type": "article",

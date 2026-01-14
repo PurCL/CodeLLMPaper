@@ -30,6 +30,12 @@
   - **Labels**: [general coding task](general_coding_task.md), [agent design](agent_design.md)
 
 
+- [Challenges and Paths Towards AI for Software Engineering](../venues/arXiv2025/paper_1.md), ([arXiv2025](../venues/arXiv2025/README.md))
+
+  - **Abstract**: AI for software engineering has made remarkable progress recently, becoming a notable success within generative AI. Despite this progress, many challenges remain before automated software engineering can reach its full potential. This paper presents a structured taxonomy of AI-for-SE tasks beyond code generation, identifies key technical bottlenecks limiting current approaches, and outlines promising research directions toward higher levels of automation in software engineering....
+  - **Labels**: [survey](survey.md), [general coding task](general_coding_task.md)
+
+
 - [ChatDev: Communicative Agents for Software Development](../venues/ACL2024/paper_5.md), ([ACL2024](../venues/ACL2024/README.md))
 
   - **Abstract**: Software development is a complex task that necessitates cooperation among multiple members with diverse skills. Numerous studies used deep learning to improve specific phases in a waterfall model, such as design, coding, and testing. However, the deep learning model in each phase requires unique designs, leading to technical inconsistencies across various phases, which results in a fragmented and ineffective development process. In this paper, we introduce ChatDev, a chat-powered software devel...

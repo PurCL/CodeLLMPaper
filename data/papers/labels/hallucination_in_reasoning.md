@@ -30,7 +30,7 @@
   - **Labels**: [hallucination in reasoning](hallucination_in_reasoning.md), [survey](survey.md)
 
 
-- [From System 1 to System 2: A Survey of Reasoning Large Language Models](../venues/arXiv2025/paper_24.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [From System 1 to System 2: A Survey of Reasoning Large Language Models](../venues/arXiv2025/paper_26.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Achieving human-level intelligence requires refining the transition from the fast, intuitive System 1 to the slower, more deliberate System 2 reasoning. While System 1 excels in quick, heuristic decisions, System 2 relies on logical reasoning for more accurate judgments and reduced biases. Foundational Large Language Models (LLMs) excel at fast decision-making but lack the depth for complex reasoning, as they have not yet fully embraced the step-by-step analysis characteristic of true System 2 t...
   - **Labels**: [agent design](agent_design.md), [hallucination in reasoning](hallucination_in_reasoning.md), [survey](survey.md)

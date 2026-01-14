@@ -1,11 +1,11 @@
-# Prompting Large Language Models to Tackle the Full Software Development Lifecycle: A Case Study
+# Challenges and Paths Towards AI for Software Engineering
 
-**Authors**: Bowen Li, Wenhan Wu, Ziwei Tang, Lin Shi, John Yang, Jinyang Li, Shunyu Yao, Chen Qian, Binyuan Hui, Qicheng Zhang, Zhiyin Yu, He Du, Ping Yang, Dahua Lin, Chao Peng, Kai Chen
+**Authors**: Gu, Alex and Jain, Naman and Li, Wen-Ding and Shetty, Manish and Shao, Yijia and Li, Ziyang and Yang, Diyi and Ellis, Kevin and Sen, Koushik and Solar-Lezama, Armando
 
 **Abstract**:
 
-Recent advancements in large language models (LLMs) have significantly enhanced their coding capabilities. However, existing benchmarks predominantly focused on simplified or isolated aspects of coding, such as single-file code generation or repository issue debugging, falling short of measuring the full spectrum of challenges raised by real-world programming activities. In this case study, we explore the performance of LLMs across the entire software development lifecycle with DevEval, encompassing stages including software design, environment setup, implementation, acceptance testing, and unit testing. DevEval features four programming languages, multiple domains, high-quality data collection, and carefully designed and verified metrics for each task. Empirical studies show that current LLMs, including GPT-4, fail to solve the challenges presented within DevEval. Our findings offer actionable insights for the future development of LLMs toward real-world programming applications.
+AI for software engineering has made remarkable progress recently, becoming a notable success within generative AI. Despite this progress, many challenges remain before automated software engineering can reach its full potential. This paper presents a structured taxonomy of AI-for-SE tasks beyond code generation, identifies key technical bottlenecks limiting current approaches, and outlines promising research directions toward higher levels of automation in software engineering.
 
-**Link**: [Read Paper](https://arxiv.org/abs/2403.08604)
+**Link**: [Read Paper](https://arxiv.org/pdf/2503.22625)
 
-**Labels**: [benchmark](../../labels/benchmark.md)
+**Labels**: [survey](../../labels/survey.md), [general coding task](../../labels/general_coding_task.md)

@@ -180,7 +180,7 @@
   - **Labels**: [code model](code_model.md), [code model security](code_model_security.md), [benchmark](benchmark.md)
 
 
-- [Training Language Models to Generate Quality Code with Program Analysis Feedback](../venues/arXiv2025/paper_7.md), ([arXiv2025](../venues/arXiv2025/README.md))
+- [Training Language Models to Generate Quality Code with Program Analysis Feedback](../venues/arXiv2025/paper_8.md), ([arXiv2025](../venues/arXiv2025/README.md))
 
   - **Abstract**: Code generation with large language models (LLMs), often termed vibe coding, is increasingly adopted in production but fails to ensure code quality, particularly in security (e.g., SQL injection vulnerabilities) and maintainability (e.g., missing type annotations). Existing methods, such as supervised fine-tuning and rule-based post-processing, rely on labor-intensive annotations or brittle heuristics, limiting their scalability and effectiveness. We propose REAL, a reinforcement learning framew...
   - **Labels**: [code generation](code_generation.md), [code model](code_model.md), [code model security](code_model_security.md)
