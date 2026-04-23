@@ -17,7 +17,7 @@ A curated literature database of **1,663** research papers on Agentic Software E
 
 ## Browse the Website
 
-Open `web/index.html` locally in any browser. The interface supports:
+Open `web/index.html` locally or visit [https://chengpeng-wang.github.io/Survey/ase.html](https://chengpeng-wang.github.io/Survey/ase.html). The interface supports:
 
 - **Full-text search** across titles and abstracts
 - **Year and venue filters** — independent single-select dropdowns; venue names are normalized (e.g., "ICSE" matches all ICSE years)
