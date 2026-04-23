@@ -1,183 +1,337 @@
-# CodeLLM Paper <a href=https://github.com/PurCL/CodeLLMPaper><img src='https://img.shields.io/github/stars/PurCL/CodeLLMPaper' width="120" height="26" /></a>
+# Agentic Software Engineering (ASE) <a href="https://github.com/PurCL/ASE"><img src="https://img.shields.io/github/stars/PurCL/ASE" width="120" height="26" /></a>
 
-This repository provides a curated list of research papers focused on Large Language Models (LLMs) for code. It aims to facilitate researchers and practitioners in exploring the rapidly growing body of literature on this topic. The papers are systematically collected from various top-tier venues, categorized, and labeled for easier navigation.
+A curated literature database of **1,663** research papers on Agentic Software Engineering, drawn from top-tier venues in Software Engineering, Programming Languages, Security, and NLP. This repository also provides an **automated paper-labeling skill** — a Claude Code pipeline that extracts, filters, and classifies new papers from raw proceedings files in various formats (e.g., bib and html), keeping the database up to date with minimal manual effort.
 
 ## Table of Contents
 
-- [A. Venues](#a-venues)
-- [B. Selection Strategy](#b-selection-strategy)
-- [C. Taxonomy](#c-taxonomy)
-   - [C.1. Application](#c1-application)
-   - [C.2. Principle](#c2-principle)
-   - [C.3. Research Paradigm](#c3-research-paradigm)
-- [D. How to Contribute](#d-how-to-contribute)
-   - [D.1. PR Submission](#d1-pr-submission)
-   - [D.2. Issue Submission](#d2-issue-submission)
-   - [D.3. Request for Batch Updates](#d3-request-for-batch-updates)
-- [E. Disclaimer and Contract](#e-disclaimer-and-contact)
+- [Browse the Website](#browse-the-website)
+- [Tracked Venues](#tracked-venues)
+- [Taxonomy](#taxonomy)
+- [Paper Selection](#paper-selection)
+- [Adding New Papers](#adding-new-papers)
+- [Contributing](#contributing)
+- [Extending the Taxonomy](#extending-the-taxonomy)
+- [Disclaimer and Contact](#disclaimer-and-contact)
 
+---
 
-## A. Venues
+## Browse the Website
 
-We have systematically selected papers from the following venues, which are top-tier conferences and journals in SE/PL/Sec/NLP communities.
+Open `web/index.html` locally in any browser. The interface supports:
 
-- Software Engineering (SE)
-  - [ICSE2023](data/papers/venues/ICSE2023/README.md), [FSE2023](data/papers/venues/FSE2023/README.md), [ASE2023](data/papers/venues/ASE2023/README.md), [ISSTA2023](data/papers/venues/ISSTA2023/README.md), [TSE2023](data/papers/venues/TSE2023/README.md), [TOSEM2023](data/papers/venues/TOSEM2023/README.md)
-  - [ICSE2024](data/papers/venues/ICSE2024/README.md), [FSE2024](data/papers/venues/FSE2024/README.md), [ASE2024](data/papers/venues/ASE2024/README.md), [ISSTA2024](data/papers/venues/ISSTA2024/README.md), [TSE2024](data/papers/venues/TSE2024/README.md), [TOSEM2024](data/papers/venues/TOSEM2024/README.md)
-  - [ICSE2025](data/papers/venues/ICSE2025/README.md), [FSE2025](data/papers/venues/FSE2025/README.md), [ISSTA2025](data/papers/venues/ISSTA2025/README.md)
+- **Full-text search** across titles and abstracts
+- **Year and venue filters** — independent single-select dropdowns; venue names are normalized (e.g., "ICSE" matches all ICSE years)
+- **Label filter** — select one or more research topics from the sidebar or by clicking label pills on paper cards; multiple labels combine with AND logic
+- **Expandable abstracts** — click any paper card to reveal its abstract
+- **Active filter summary** — each active constraint is shown as a removable tag below the toolbar
 
-- Programming Languages (PL)
-  - [PLDI2023](data/papers/venues/PLDI2023/README.md), [OOPSLA2023](data/papers/venues/OOPSLA2023/README.md)
-  - [OOPSLA2024](data/papers/venues/OOPSLA2024/README.md)
-  - [PLDI2025](data/papers/venues/PLDI2025/README.md), [POPL2025](data/papers/venues/POPL2025/README.md), [OOPSLA2025](data/papers/venues/OOPSLA2025/README.md), [CC2025](data/papers/venues/CC2025/README.md)
+All filter dimensions (year, venue, labels) are optional and combine with AND logic: only papers satisfying every active constraint are shown.
 
-- Security (Sec)
-  - [S&P2023](data/papers/venues/S&P2023/README.md), [USENIXSec2023](data/papers/venues/USENIXSec2023/README.md), [CCS2023](data/papers/venues/CCS2023/README.md), [NDSS2023](data/papers/venues/NDSS2023/README.md)
-  - [S&P2024](data/papers/venues/S&P2024/README.md), [USENIXSec2024](data/papers/venues/USENIXSec2024/README.md), [NDSS2024](data/papers/venues/NDSS2024/README.md), [CCS2024](data/papers/venues/CCS2024/README.md)
-  - [S&P2025](data/papers/venues/S&P2025/README.md), [NDSS2025](data/papers/venues/NDSS2025/README.md)
+![Website Demo](web/image.png)
 
-- Natural Language Processing (NLP)
-  - [ACL2023](data/papers/venues/ACL2023/README.md), [EMNLP2023](data/papers/venues/EMNLP2023/README.md), [NAACL2023](data/papers/venues/NAACL2023/README.md)
-  - [ACL2024](data/papers/venues/ACL2024/README.md), [EMNLP2024](data/papers/venues/EMNLP2024/README.md), [NAACL2024](data/papers/venues/NAACL2024/README.md)
-  - [NAACL2025](data/papers/venues/NAACL2025/README.md)
+---
 
-- Machine Learning (ML)
-  - [ICML2023](data/papers/venues/ICML2023/README.md), [NeurIPS2023](data/papers/venues/NeurIPS2023/README.md), [ICLR2023](data/papers/venues/ICLR2023/README.md)
-  - [ICML2024](data/papers/venues/ICML2024/README.md), [NeurIPS2024](data/papers/venues/NeurIPS2024/README.md), [ICLR2024](data/papers/venues/ICLR2024/README.md)
-  - [ICML2025](data/papers/venues/ICML2025/README.md), [ICLR2025](data/papers/venues/ICLR2025/README.md)
+## Tracked Venues
 
+Papers are **systematically** collected for all proceedings from **2023–2026** that have been publicly released. The database additionally includes selected papers from earlier years (2020–2022) and other venues on a best-effort basis.
 
-Due to the large volume, we do not systematically collect the papers published in top-tier ML conferences (ICML, NeurIPS, and ICLR) and arXiv. However, we are keeping manually adding important works published in these venues. We plan to expand the collection over time, and contributions are welcome. For details, see the section [How to Contribute](#d-how-to-contribute).
+Tracked venues:
 
+**Software Engineering (SE)**
+- ICSE (2023--2025), FSE (2023--2025), ASE (2023--2025), ISSTA (2022--2025)
+- TSE (2023--2024), TOSEM (2023--2024)
 
-## B. Selection Strategy
+**Programming Languages (PL)**
+- PLDI (2023, 2025), OOPSLA (2023--2025), POPL (2025), CC (2025), COLM (2025)
 
-1. **Abstract Extraction**: Extract the abstracts from bib files or HTML files. The bib and HTML files of the above listed venues are stored in the directory [`data/rawdata`](data/rawdata).
+**Security**
+- S&P (2023--2025), USENIX Security (2023--2025), CCS (2023--2025), NDSS (2024--2026)
+- RAID (2023)
 
-2. **Keyword Matching**: Filter abstracts that meet both of the following conditions:
+**Natural Language Processing (NLP)**
+- ACL (2023--2025), EMNLP (2020, 2023--2025), NAACL (2024--2025)
 
-   - Contains at least one keyword from: `{"pretrain", "LLM", "large language model", "transformer", "code model"}`.
+**Machine Learning (ML)**
+- ICML (2021, 2023--2025), NeurIPS (2022--2024), ICLR (2021, 2023--2025)
 
-   - Contains the keyword `"code"` or `"program"`.
+### Paper Counts by Venue (2023–2026)
 
-3. **Relevance Check Using LLMs**: Use LLMs to verify if the papers obtained in Step 2 are related to LLMs for code.
+> Each `█` block represents ~9 papers. Bars are scaled within each track independently.
 
-4. **Manual Labeling**: Manually assign labels to the papers based on domain knowledge.
+#### 🔧 Software Engineering
 
-All the selected papers along with the labels are maintained in the json file [`data/labeldata/labeldata.json`](data/labeldata/labeldata.json). [`src/process.py`](src/process.py) is the python script used for selecting and labeling papers.
+| Venue | 2023 | 2024 | 2025 | Total |
+|:------|:-----|:-----|:-----|------:|
+| ICSE  | `███░░░░░░░░░░░░░░░░░`&nbsp;23 | `██████░░░░░░░░░░░░░░`&nbsp;53 | `██████████░░░░░░░░░░`&nbsp;90 | **166** |
+| FSE   | `███░░░░░░░░░░░░░░░░░`&nbsp;31 | `█████░░░░░░░░░░░░░░░`&nbsp;45 | `██████░░░░░░░░░░░░░░`&nbsp;54 | **130** |
+| ASE   | `████░░░░░░░░░░░░░░░░`&nbsp;36 | `█████████░░░░░░░░░░░`&nbsp;78 | `████████████████████`&nbsp;178 | **292** |
+| ISSTA | `█░░░░░░░░░░░░░░░░░░░`&nbsp;10 | `█████░░░░░░░░░░░░░░░`&nbsp;45 | `█████░░░░░░░░░░░░░░░`&nbsp;43 | **98** |
+| **Total** | **100** | **221** | **365** | **686** |
 
-## C. Taxonomy
+#### 🔬 Programming Languages
 
-The papers in this repository are categorized along three dimensions: **Application**, **Principle**, and **Research Paradigm**. Each paper is assigned multiple labels based on these categories. Note that categories are not necessarily disjoint.
+| Venue | 2023 | 2024 | 2025 | Total |
+|:------|:-----|:-----|:-----|------:|
+| PLDI   | `██░░░░░░░░░░░░░░░░░░`&nbsp;2 | `░░░░░░░░░░░░░░░░░░░░`&nbsp;0 | `████░░░░░░░░░░░░░░░░`&nbsp;4 | **6** |
+| OOPSLA | `████░░░░░░░░░░░░░░░░`&nbsp;4 | `█████████████░░░░░░░`&nbsp;13 | `█████████████████░░░`&nbsp;17 | **34** |
+| POPL   | `░░░░░░░░░░░░░░░░░░░░`&nbsp;0 | `░░░░░░░░░░░░░░░░░░░░`&nbsp;0 | `█░░░░░░░░░░░░░░░░░░░`&nbsp;1 | **1** |
+| **Total** | **6** | **13** | **22** | **41** |
 
-### C.1. Application
+#### 🔒 Security
 
-This category focuses on typical tasks in Software Engineering (SE) and Programming Languages (PL).
+| Venue | 2023 | 2024 | 2025 | 2026 | Total |
+|:------|:-----|:-----|:-----|:-----|------:|
+| CCS        | `██░░░░░░░░░░░░░░░░░░`&nbsp;4 | `██████████████░░░░░░`&nbsp;24 | `███████████░░░░░░░░░`&nbsp;19 | — | **47** |
+| USENIXSec  | `██░░░░░░░░░░░░░░░░░░`&nbsp;3 | `█████████░░░░░░░░░░░`&nbsp;16 | `█████████████░░░░░░░`&nbsp;22 | — | **41** |
+| S&P        | `█░░░░░░░░░░░░░░░░░░░`&nbsp;1 | `█████░░░░░░░░░░░░░░░`&nbsp;9 | `███████░░░░░░░░░░░░░`&nbsp;12 | — | **22** |
+| NDSS       | — | `██░░░░░░░░░░░░░░░░░░`&nbsp;3 | `████████████░░░░░░░░`&nbsp;21 | `██████████████████░░`&nbsp;31 | **55** |
+| **Total** | **8** | **52** | **74** | **31** | **165** |
 
-- [General Coding Task](data/papers/labels/general_coding_task.md)   (37)
-- [Code Generation](data/papers/labels/code_generation.md)   (270)
-  - [Program Synthesis](data/papers/labels/program_synthesis.md)   (108)
-  - [Code Completion](data/papers/labels/code_completion.md)   (25)
-  - [Program Repair](data/papers/labels/program_repair.md)   (70)
-  - [Program Transformation](data/papers/labels/program_transformation.md)   (42)
-- [Program Testing](data/papers/labels/program_testing.md)   (99)
-  - [General Testing](data/papers/labels/general_testing.md)   (7)
-  - [Fuzzing](data/papers/labels/fuzzing.md)   (31)
-  - [Library Testing](data/papers/labels/library_testing.md)   (5)
-  - [DBMS Testing](data/papers/labels/DBMS_testing.md)   (1)
-  - [Compiler Testing](data/papers/labels/compiler_testing.md)   (5)
-  - [GUI Testing](data/papers/labels/GUI_testing.md)   (1)
-  - [Protocol Fuzzing](data/papers/labels/protocol_fuzzing.md)   (1)
-  - [Mutation Testing](data/papers/labels/mutation_testing.md)   (2)
-  - [Unit Testing](data/papers/labels/unit_testing.md)   (12)
-  - [Differential Testing](data/papers/labels/differential_testing.md)   (6)
-  - [Debugging](data/papers/labels/debugging.md)   (16)
-  - [Bug Reproduction](data/papers/labels/bug_reproduction.md)   (6)
-  - [Vulnerability Exploitation](data/papers/labels/vulnerability_exploitation.md)   (12)
-- [Static Analysis](data/papers/labels/static_analysis.md)   (210)
-  - [Syntactic Analysis](data/papers/labels/syntactic_analysis.md)   (1)
-  - [Pointer Analysis](data/papers/labels/pointer_analysis.md)   (3)
-  - [Call Graph Analysis](data/papers/labels/call_graph_analysis.md)   (4)
-  - [Data-flow Analysis](data/papers/labels/data-flow_analysis.md)   (8)
-  - [Symbolic Execution](data/papers/labels/symbolic_execution.md)   (1)
-  - [Abstract Interpretation](data/papers/labels/abstract_interpretation.md)   (2)
-  - [Type Inference](data/papers/labels/type_inference.md)   (7)
-  - [Specification Inference](data/papers/labels/specification_inference.md)   (21)
-  - [Equivalence Checking](data/papers/labels/equivalence_checking.md)   (2)
-  - [Code Similarity Analysis](data/papers/labels/code_similarity_analysis.md)   (8)
-  - [Bug Detection](data/papers/labels/bug_detection.md)   (107)
-  - [Program Verification](data/papers/labels/program_verification.md)   (28)
-  - [Program Optimization](data/papers/labels/program_optimization.md)   (8)
-  - [Program Decompilation](data/papers/labels/program_decompilation.md)   (12)
-  - [Code Summarization](data/papers/labels/code_summarization.md)   (17)
-  - [Code Search](data/papers/labels/code_search.md)   (8)
-  - [Software Composition Analysis](data/papers/labels/software_composition_analysis.md)   (3)
-- [Software Maintenance and Deployment](data/papers/labels/software_maintenance_and_deployment.md)   (29)
-  - [Code Review](data/papers/labels/code_review.md)   (9)
-  - [Documentation Generation](data/papers/labels/documentation_generation.md)   (4)
-  - [Commit Message Generation](data/papers/labels/commit_message_generation.md)   (5)
-  - [Software Configuration](data/papers/labels/software_configuration.md)   (1)
-  - [System Log Analysis](data/papers/labels/system_log_analysis.md)   (4)
+#### 💬 Natural Language Processing
 
+| Venue | 2023 | 2024 | 2025 | Total |
+|:------|:-----|:-----|:-----|------:|
+| ACL   | `██░░░░░░░░░░░░░░░░░░`&nbsp;23 | `████████░░░░░░░░░░░░`&nbsp;79 | `███████████████████░`&nbsp;192 | **294** |
+| EMNLP | `████░░░░░░░░░░░░░░░░`&nbsp;39 | `██████░░░░░░░░░░░░░░`&nbsp;59 | `███████████████░░░░░`&nbsp;152 | **250** |
+| NAACL | `░░░░░░░░░░░░░░░░░░░░`&nbsp;0 | `█░░░░░░░░░░░░░░░░░░░`&nbsp;6 | `██░░░░░░░░░░░░░░░░░░`&nbsp;16 | **22** |
+| **Total** | **62** | **144** | **360** | **566** |
 
-### C.2. Principle
+---
 
-This category concentrates on the LLMs' ability in understanding different forms of code and the non-functional properties of the LLMs (e.g., security and robustness). We also consider how to utilize the LLMs for general reasoning problems, such as typical agent-centric designs and specific PL designs for LLMs.
+## Taxonomy
 
-- [Code Model](data/papers/labels/code_model.md)   (1)
-  - [Code Model Training](data/papers/labels/code_model_training.md)   (4)
-    - [Source Code Model](data/papers/labels/source_code_model.md)   (66)
-    - [IR Code Model](data/papers/labels/IR_code_model.md)   (5)
-    - [Binary Code Model](data/papers/labels/binary_code_model.md)   (15)
-  - [Code Model Security](data/papers/labels/code_model_security.md)   (33)
-  - [Code Model Robustness](data/papers/labels/code_model_robustness.md)   (11)
-- [Hallucination In Reasoning](data/papers/labels/hallucination_in_reasoning.md)   (16)
-- [PL Design For LLMs](data/papers/labels/PL_design_for_LLMs.md)   (3)
-- [Agent Design](data/papers/labels/agent_design.md)   (72)
-  - [Prompt Strategy](data/papers/labels/prompt_strategy.md)   (44)
-    - [Retrieval-augmented Generation](data/papers/labels/retrieval-augmented_generation.md)   (14)
-    - [Reason With Code](data/papers/labels/reason_with_code.md)   (17)
-    - [Sampling And Ranking](data/papers/labels/sampling_and_ranking.md)   (3)
-  - [Planning](data/papers/labels/planning.md)   (13)
-  - [Agent Security](data/papers/labels/agent_security.md)   (1)
+Papers are classified using a two-level taxonomy with 9 top-level categories and 47 sub-categories. A paper may carry multiple labels. The taxonomy is organized into three super-groups:
 
-### C.3. Research Paradigm
+### Agent for SE
 
-This category includes studies on benchmarks, empirical evaluations, and surveys. The papers that do not belong to the following three categories are purely technical papers.
+Papers where LLMs or AI agents are applied to core software engineering tasks.
 
-- [Benchmark](data/papers/labels/benchmark.md)   (1)
-- [Empirical Study](data/papers/labels/empirical_study.md)   (108)
-- [Survey](data/papers/labels/survey.md)   (20)
+| Category | Sub-Categories | Papers |
+|----------|---------------|--------|
+| **Code Generation** | Program Synthesis (410), Code Completion (68), Program Repair (223), Code Translation (69), Decompilation (23), Refactoring (37) | 750 |
+| **Static Analysis** | Bug Detection (249), Program Verification (44), Specification Inference (33), Type Inference (18), Data-flow Analysis (23), Taint Analysis (16), Code Summarization (67), Code Search (51), Clone Detection (21), Call Graph Analysis (8), Symbolic Execution (7), Pointer Analysis (3), Abstract Interpretation (3) | 446 |
+| **Dynamic Analysis** | Test Case Generation (118), Fuzzing (58), Domain-Specific Testing (56), Debugging (40), PoC and Exploit Generation (23), Test Oracle (19), Bug Reproduction (19), Mutation Testing (6) | 287 |
+| **Code Model** | Model Training (407), Binary and IR Model (35) | 427 |
+| **Other SE Tasks** | Doc/Comment/Commit Message Generation (35), Log Analysis (34), Code Review (29) | 96 |
 
-## D. How to Contribute
+### Agent Design and Analysis
 
-### D.1. PR Submission
+Research on agent architectures and the safety and security properties of code-oriented LLMs.
 
-We welcome contributions to expand this repository. If you want to add new papers to the list, please follow these steps:
+| Category | Sub-Categories | Papers |
+|----------|---------------|--------|
+| **Agent Design** | Planning (206), Tool Use (156), Multi-Agent (96), Memory Management (30) | 328 |
+| **Model Safety and Security** | Adversarial Attack (85), Jailbreaking (66), Secure Code Generation (65), Memorization (40), Backdoor Detection (36), Watermarking (35) | 267 |
+| **Agent Safety and Security** | Prompt Injection (73), Agent Defense (36), Access Control (12) | 97 |
 
-1. **Prepare a JSON File**: Format the file like [`data/labeldata/patch/example.json`](data/labeldata/patch/example.json). Each paper should include:
-   - `title`, `authors`, `abstract`, `url`, `venue`, and `labels` (aligned with the taxonomy in [`data/labeldata/patch`](data/labeldata/patch)).
-    
-2. **Upload the File**: Copy the items of the json dictionary to the json file `data/labeldata/labeldata.json`.
+### Evaluation
 
-3. **Update Markdown Files**: Run the following command to update the repository:
-   
-   ```bash
-   cd src && python patch.py
+Benchmarks, empirical studies, and surveys that assess LLM/agent capabilities for code.
+
+| Category | Sub-Categories | Papers |
+|----------|---------------|--------|
+| **Evaluation** | Empirical Study (620), Benchmark (392), Survey (26) | 914 |
+
+---
+
+## Paper Selection
+
+Each venue's proceedings are processed through a four-stage pipeline:
+
+1. **Extract** — parse titles and abstracts from BibTeX or HTML files.
+2. **Filter** — retain papers whose title or abstract contains both LLM-related terms (e.g., "large language model", "GPT", "agent") and code-related terms (e.g., "program", "software", "testing", "verification"). This keyword pass is deliberately permissive (high recall).
+3. **Classify** — pass each candidate to the Claude API, which verifies relevance and assigns taxonomy labels. A paper is included only if LLMs or AI agents constitute a **central contribution**, not merely a baseline or comparison point.
+4. **Merge** — add the classified papers to the canonical database (`data/labeldata/labeldata.json`) and regenerate the website.
+
+---
+
+## Adding New Papers
+
+This repository ships a **paper-labeler skill** that automates the full pipeline: extract → filter → label → merge → rebuild. All scripts live in `.claude/skills/paper-labeler/scripts/`.
+
+### Prerequisites
+
+```bash
+pip install boto3 requests   # boto3 for Claude API via AWS Bedrock; requests for NDSS scraping
+```
+
+AWS credentials must be configured (`~/.aws/credentials`, environment variables, or IAM role) for the labeling step. The filter-only step needs no credentials.
+
+### Option A — Batch mode (recommended)
+
+Scans a rawdata folder, skips venues already recorded in `data/venues.json`, runs the full pipeline for each new venue, and rebuilds the website.
+
+```bash
+# Preview what would be processed
+python .claude/skills/paper-labeler/scripts/process_folder.py --dry-run
+
+# Process all new venues under data/rawdata/
+python .claude/skills/paper-labeler/scripts/process_folder.py
+
+# Process a specific year only
+python .claude/skills/paper-labeler/scripts/process_folder.py data/rawdata/2025/
+
+# Keyword filter only — no API calls, no merge (useful for a quick check)
+python .claude/skills/paper-labeler/scripts/process_folder.py --filter-only
+```
+
+Key options: `--model MODEL`, `--region REGION`, `--delay SECONDS`, `--no-rebuild`.
+
+### Option B — Manual per-venue pipeline
+
+Use when finer control over individual steps is required.
+
+#### Step 1 — Extract papers
+
+```bash
+# BibTeX (most venues: ASE, ICSE, FSE, CCS, S&P, OOPSLA, …)
+python .claude/skills/paper-labeler/scripts/extract_papers.py \
+    data/rawdata/2025/ASE2025.bib > /tmp/extracted.json
+
+# ACL Anthology HTML (ACL, EMNLP, NAACL)
+python .claude/skills/paper-labeler/scripts/extract_papers.py \
+    data/rawdata/2025/ACL2025.html > /tmp/extracted.json
+
+# NDSS HTML — titles only; fetch abstracts separately
+python .claude/skills/paper-labeler/scripts/extract_papers.py \
+    data/rawdata/2025/NDSS2025.html > /tmp/ndss_raw.json
+python .claude/skills/paper-labeler/scripts/fetch_ndss_abstracts.py \
+    /tmp/ndss_raw.json -o /tmp/extracted.json
+```
+
+#### Step 2 — Filter and label
+
+```bash
+# Keyword filter only (no AWS credentials needed)
+python .claude/skills/paper-labeler/scripts/label_papers.py \
+    /tmp/extracted.json --phase filter -o /tmp/filtered.json
+
+# Claude labeling only (requires AWS credentials)
+python .claude/skills/paper-labeler/scripts/label_papers.py \
+    /tmp/filtered.json --phase label -o /tmp/labeled.json
+
+# Both phases in one go
+python .claude/skills/paper-labeler/scripts/label_papers.py \
+    /tmp/extracted.json --phase all -o /tmp/labeled.json
+```
+
+#### Step 3 — Merge into the database
+
+```bash
+# Preview first (no writes)
+python .claude/skills/paper-labeler/scripts/merge_labeldata.py \
+    /tmp/labeled.json --dry-run
+
+# Merge
+python .claude/skills/paper-labeler/scripts/merge_labeldata.py \
+    /tmp/labeled.json
+```
+
+#### Step 4 — Rebuild the website
+
+```bash
+python .claude/skills/paper-labeler/scripts/build_site.py
+# Output: web/index.html
+```
+
+### Using the skill via Claude Code
+
+With [Claude Code](https://claude.ai/code), the pipeline can be invoked conversationally — no need to remember script names or flags:
+
+> "Process the ASE2025 rawdata"  
+> "Label the papers in data/rawdata/2025/CCS2025.bib"  
+> "Process the entire 2025 folder"  
+> "Run a dry-run for all unprocessed venues"  
+> "Rebuild the website"
+
+Claude Code will invoke the paper-labeler skill and run the appropriate commands automatically.
+
+### Supported input formats
+
+| Format | Extension | Example venues | Abstracts |
+|--------|-----------|----------------|-----------|
+| BibTeX | `.bib` | ASE, ICSE, FSE, ISSTA, CCS, S&P, OOPSLA, PLDI, TOSEM, TSE, USENIXSec, NAACL | Inline |
+| ACL Anthology HTML | `.html` | ACL, EMNLP, NAACL (some years) | Inline |
+| NDSS HTML | `.html` | NDSS | Scraped separately |
+
+### Script reference
+
+| Script | Purpose |
+|--------|---------|
+| `process_folder.py` | Batch mode — scan folder, skip processed venues, run full pipeline |
+| `extract_papers.py` | Step 1 — parse `.bib`/`.html` into uniform JSON |
+| `fetch_ndss_abstracts.py` | Step 1b — scrape abstracts from NDSS paper pages |
+| `label_papers.py` | Step 2 — keyword filter + Claude API labeling |
+| `merge_labeldata.py` | Step 3 — merge labeled JSON into `labeldata.json` |
+| `build_site.py` | Step 4 — regenerate `web/index.html` from `labeldata.json` |
+| `import_original.py` | One-time import of legacy papers from `original.json` |
+
+Full documentation: `.claude/skills/paper-labeler/USAGE.md`
+
+---
+
+## Contributing
+
+### Add individual papers
+
+1. Append an entry to `data/labeldata/labeldata.json`:
+   ```json
+   {
+     "Paper Title": {
+       "type": "INPROCEEDINGS",
+       "author": "...",
+       "title": "...",
+       "booktitle": "...",
+       "year": "2025",
+       "abstract": "...",
+       "url": "https://doi.org/...",
+       "venue": "ICSE2025",
+       "labels": ["Static Analysis", "Bug Detection"]
+     }
+   }
    ```
+2. Labels must be drawn from the [taxonomy](#taxonomy) above.
+3. Rebuild the website: `python .claude/skills/paper-labeler/scripts/build_site.py`.
+4. Open a pull request.
 
-If you want to add new labels and change the current taxonomy, please post an issue first and suggest your taxonomy (See below).
+### Add a new venue
 
-### D.2. Issue Submission
+1. Place the `.bib` or `.html` proceedings file under `data/rawdata/<year>/`.
+2. Run the batch pipeline:
+   ```bash
+   python .claude/skills/paper-labeler/scripts/process_folder.py
+   ```
+3. Open a pull request containing the rawdata file and updated `labeldata.json`.
 
-Another option is to post the papers you wish to add in an issue. Please include a permanently valid link to the paper and specify the venue. If you'd like, you can also categorize the paper based on your understanding of the work by attaching appropriate labels from the existing options in [`data/category.json`](data/category.json) or by creating new ones. We will add the paper to our repository very soon.
+### Report missing papers
 
-### D.3. Request for Batch Updates
+If a tracked venue's proceedings have been published but are not yet reflected in the database, please [open an issue](https://github.com/PurCL/ASE/issues) with the venue name and a link to the proceedings. You may also suggest specific papers with labels.
 
-To facilitate timely batch updates to the paper repository, we prefer to utilize the proceedings of various conferences and journals. Here are several examples: [ASE2024](https://dl.acm.org/doi/proceedings/10.1145/3691620), [OOPSLA2023](https://dl.acm.org/doi/proceedings/10.1145/3618305), [S&P2023](https://ieeexplore.ieee.org/xpl/conhome/10179215/proceeding), and [ACL2024](https://aclanthology.org/events/acl-2024/). By parsing and extracting information from bib files and HTML files (See [`data/rawdata`](data/rawdata/)), including abstracts, we can semi-automatically classify papers based on the aforementioned [selection strategy](#b-selection-strategy). If the conference or journal you are following has recently released its complete proceedings, please notify us by [submitting an issue](#d2-issue-submission). We will prioritize the batch update and add the corresponding conference or journal name to the [venue list](#a-venues).
+---
 
-## E. Disclaimer and Contact
+## Extending the Taxonomy
 
-This paper repository is intended solely for research purposes. All raw data is sourced from publicly available information on ACM, IEEE, and corresponding conference websites. Any content involving additional copyright information, including full PDF versions of the papers, is not disclosed in this repository.
+The pipeline is fully configurable. To track a **different research topic** across the same venues, edit two sections in `.claude/skills/paper-labeler/SKILL.md`:
 
-For any questions or suggestions, please contact [stephenw.wangcp@gmail.com](mailto:stephenw.wangcp@gmail.com) or [wang6590@purdue.edu](mailto:wang6590@purdue.edu)
+- **`## Relevance Criteria`** — keyword lists and the natural-language prompt used by Claude to decide whether a paper is relevant. For example, to track LLM-for-theorem-proving, add proof-related keywords and update the relevance description.
+
+- **`## Label Taxonomy`** — the two-level category hierarchy. Add, remove, or rename categories as needed. After editing, keep the `TAXONOMY` dict in `build_site.py` and `label_papers.py` in sync.
+
+Re-run the pipeline on existing rawdata to reclassify papers under the updated taxonomy:
+
+```bash
+# Re-label a single extracted file
+python .claude/skills/paper-labeler/scripts/label_papers.py \
+    /tmp/extracted.json --phase all -o /tmp/relabeled.json
+
+# Or reprocess all rawdata from scratch
+python .claude/skills/paper-labeler/scripts/process_folder.py
+```
+
+---
+
+## Disclaimer and Contact
+
+This repository is intended solely for research purposes. All metadata is sourced from publicly available proceedings pages on ACM, IEEE, and corresponding conference websites. Full-text PDFs are not included or redistributed.
+
+For questions or suggestions, please reach out via [stephenw.wangcp@gmail.com](mailto:stephenw.wangcp@gmail.com) or [wang6590@purdue.edu](mailto:wang6590@purdue.edu).
